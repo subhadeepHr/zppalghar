@@ -137,7 +137,7 @@
 
             departments.forEach(dep => {
                 const card = document.createElement("a");
-                card.href = "page2.html";
+                card.href = "./department/dept-inner-page.php";
                 card.className = `flex items-center gap-4 rounded-md p-2 hover:opacity-90 ${dep.bg.includes("border") ? dep.bg + " hover:bg-gray-50" : dep.bg + " text-white hover:opacity-80"}`;
 
                 card.innerHTML = `
