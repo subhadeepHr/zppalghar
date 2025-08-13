@@ -33,103 +33,23 @@
                 name: "General Administration Department",
                 bg: "bg-orange-500",
                 iconBg: "bg-white",
-                iconColor: "text-black"
+                iconColor: "text-black",
+                link: "./directory/blank.php"
             },
             {
                 name: "Gram Panchayat Department",
                 bg: "border border-black",
                 iconBg: "bg-[#1673b4]",
-                iconColor: "text-black"
+                iconColor: "text-black",
+                link: "./directory/zp-palghar-contact-of-hod.php"
             },
             {
                 name: "District Rural Development Agency (DRDA)",
                 bg: "bg-green-800",
                 iconBg: "bg-white",
-                iconColor: "text-black"
-            },
-            {
-                name: "Finance Department",
-                bg: "bg-orange-500",
-                iconBg: "bg-white",
-                iconColor: "text-black"
-            },
-            {
-                name: "Women and Child Development Department",
-                bg: "border border-black",
-                iconBg: "bg-[#1673b4]",
-                iconColor: "text-black"
-            },
-            {
-                name: "Works Department",
-                bg: "bg-green-800",
-                iconBg: "bg-white",
-                iconColor: "text-black"
-            },
-            {
-                name: "Agriculture Department",
-                bg: "bg-orange-500",
-                iconBg: "bg-white",
-                iconColor: "text-black"
-            },
-            {
-                name: "Animal Husbandry Department",
-                bg: "border border-black",
-                iconBg: "bg-[#1673b4]",
-                iconColor: "text-black"
-            },
-            {
-                name: "Health Department",
-                bg: "bg-green-800",
-                iconBg: "bg-white",
-                iconColor: "text-black"
-            },
-            {
-                name: "Education Department (Primary)",
-                bg: "bg-orange-500",
-                iconBg: "bg-white",
-                iconColor: "text-black"
-            },
-            {
-                name: "Education Department (Secondary)",
-                bg: "border border-black",
-                iconBg: "bg-[#1673b4]",
-                iconColor: "text-black"
-            },
-            {
-                name: "Education Department (Scheme)",
-                bg: "bg-green-800",
-                iconBg: "bg-white",
-                iconColor: "text-black"
-            },
-            {
-                name: "District Water Conservation Department",
-                bg: "bg-orange-500",
-                iconBg: "bg-white",
-                iconColor: "text-black"
-            },
-            {
-                name: "M. G. N. R. E. G. S.",
-                bg: "border border-black",
-                iconBg: "bg-[#1673b4]",
-                iconColor: "text-black"
-            },
-            {
-                name: "Rural Water Supply Department",
-                bg: "bg-green-800",
-                iconBg: "bg-white",
-                iconColor: "text-black"
-            },
-            {
-                name: "District Water and Sanitation Department",
-                bg: "bg-orange-500",
-                iconBg: "bg-white",
-                iconColor: "text-black"
-            },
-            {
-                name: "Social Welfare Department",
-                bg: "border border-black",
-                iconBg: "bg-[#1673b4]",
-                iconColor: "text-black"
+                iconColor: "text-black",
+                link: "./directory/contact-details-of-panchayat-samiti.php"
+
             }
         ];
 
@@ -137,7 +57,7 @@
 
         departments.forEach(dep => {
             const card = document.createElement("a");
-            card.href = "page2.html";
+            card.href = dep.link;
             card.className = `flex items-center gap-4 rounded-md p-2 hover:opacity-90 ${dep.bg.includes("border") ? dep.bg + " hover:bg-gray-50" : dep.bg + " text-white hover:opacity-80"}`;
 
             card.innerHTML = `
