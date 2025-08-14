@@ -497,7 +497,6 @@
         $(".footerScrollbar").flexslider({
             animation: "slide",
             animationLoop: true,
-            control
             itemWidth: 210,
             itemMargin: 1,
         });
