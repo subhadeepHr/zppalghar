@@ -10,7 +10,8 @@
 
 <body class="bg-[#f5f3ee] ">
     <?php include_once "include/header.php"; ?>
-    <div class="max-w-7xl mx-auto p-6">
+    <?php include_once "include/header_img.php"; ?>
+    <div class="max-w-7xl mx-auto px-1 py-1">
         <h1 class="text-2xl font-bold mb-4">RTI Contacts</h1>
         <div class="bg-white shadow-sm rounded-md p-6">
             <!-- Tabs -->

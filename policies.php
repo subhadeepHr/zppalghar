@@ -10,13 +10,10 @@
 
 <body class="font-sans m-0 bg-[#f6f3ef]">
     <?php include_once "include/header.php"; ?>
+    <?php include_once "include/header_img.php"; ?>
     <div class="mx-auto max-w-7xl">
-        <div class="m-4 p-5">
-            <nav class="text-sm text-[#6a4501] mb-5" aria-label="Breadcrumb">
-                <a href="#" class="hover:underline">Home</a>
-                <span class="mx-1">&gt;</span>
-                <span class="text-gray-700">Website Policies</span>
-            </nav>
+        <div class="m-1 p-1">
+
 
 
             <h1 class="text-3xl font-semibold">Website Policies</h1>

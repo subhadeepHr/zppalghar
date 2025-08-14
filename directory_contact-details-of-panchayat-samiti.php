@@ -11,6 +11,7 @@
 
 <body class="bg-custom-bg min-h-screen ">
     <?php include_once "include/header.php"; ?>
+    <?php include_once "include/header_img.php"; ?>
     <div class="max-w-7xl mx-auto">
         <!-- Page Title -->
         <h1 class="text-[28px] m-auto font-semibold text-gray-800 mb-2">Contact details of Panchayat Samiti</h1>

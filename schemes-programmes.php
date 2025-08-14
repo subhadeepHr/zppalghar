@@ -10,11 +10,10 @@
 
 <body class="bg-[#f8f6f2]">
     <?php include_once "include/header.php"; ?>
+    <?php include_once "include/header_img.php"; ?>
     <!-- Breadcrumb -->
     <div class="max-w-7xl mx-auto">
-        <div class="p-4 text-sm text-gray-600">
-            <span class="text-gray-500">Home</span> &gt; <span>Schemes/Programmes</span>
-        </div>
+
 
         <!-- Title -->
         <div class="px-6">

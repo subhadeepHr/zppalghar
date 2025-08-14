@@ -10,42 +10,12 @@
 
 <body>
     <?php include_once "include/header.php"; ?>
-    <img src="https://cdnbbsr.s3waas.gov.in/s34dd9cec1c21bc54eecb53786a2c5fa09/uploads/2024/12/202412091606075104.jpg" alt="Tailwind CSS Logo" class="mx-auto min-h-[115px] object-cover">
+    <?php include_once "include/header_img.php"; ?>
     <div class="bg-[#F6F3EE]">
-        <div class="max-w-7xl min-h-[600px] mx-auto px-4 py-3">
-            <!-- Header -->
-            <div>
-                <div class="flex justify-between items-center">
-                    <!-- Breadcrumb -->
-                    <nav class="text-sm">
-                        <a href="index.php" class="text-orange-600 hover:text-orange-700">Home</a>
-                        <span class="mx-2 text-gray-500">></span>
-                        <span class="text-gray-700">Notices</span>
-                    </nav>
-
-                    <!-- Social Icons -->
-                    <div class="flex items-center space-x-2">
-                        <button id="print" tabindex="0" aria-label="Print Page Content"
-                            class="cursor-pointer hover:opacity-75 transition-opacity">
-                            <img src="assets/print_icon.svg" alt="print icon" class="size-5" />
-                        </button>
-                        <span>/</span>
-                        <img src="assets/share_icon.svg" alt="share icon" class="size-5" />
-                        <a
-                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.zppalghar.gov.in/en/documents/&t=Documents"><img
-                                src="assets/facebook_social_icon.svg" alt="facebook icon" class="size-5"></a>
-                        <a href="https://x.com/share?url=https://www.zppalghar.gov.in/en/documents/&via=TWITTER_HANDLE&text=Documents"
-                            class="text-blue-400 hover:text-blue-500"><img src="assets/twitter_social_icon.svg"
-                                alt="twitter icon" class="size-5"></a>
-                        <a href="http://www.linkedin.com/sharing/share-offsite/?url=https://www.zppalghar.gov.in/en/documents/&mini=true"
-                            class="text-blue-700 hover:text-blue-800"><img src="assets/linkedin_social_icon.svg"
-                                alt="linkedin icon" class="size-5"></a>
-                    </div>
-                </div>
-            </div>
+        <div class="max-w-7xl min-h-[600px] mx-auto px-1 py-1">
 
             <!-- Main Title -->
-            <div class="max-w-7xl mx-auto py-6">
+            <div class="max-w-7xl mx-auto px-1 py-1">
                 <h1 class="text-[28px] font-semibold text-gray-900">Notices</h1>
             </div>
 

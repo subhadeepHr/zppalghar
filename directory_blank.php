@@ -12,6 +12,8 @@
 
 <body class="min-h-screen" style="background-color: #f6f3ee;">
     <?php include_once "include/header.php"; ?>
+    <?php include_once "include/header_img.php"; ?>
+
     <div class="max-w-7xl mx-auto min-h-screen">
         <!-- Page Title -->
         <h1 class="text-[28px] font-semibold text-gray-800 mb-6">BLANK PAGE</h1>

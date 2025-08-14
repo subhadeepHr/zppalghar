@@ -10,7 +10,8 @@
 
 <body class="bg-[#f5f3ee] ">
     <?php include_once "include/header.php"; ?>
-    <div class="max-w-7xl mx-auto p-6">
+    <?php include_once "include/header_img.php"; ?>
+    <div class="max-w-7xl mx-auto px-1 py-1">
         <h1 class="text-2xl font-medium mb-12">Right to Information Sections 1 to 17 Information</h1>
 
         <div class="overflow-x-auto">
