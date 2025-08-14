@@ -74,35 +74,35 @@
                     <a class="border rounded-lg p-[10px] flex gap-x-[10px] items-center border-[#737373]"
                         href="introduction.php" aria-label="Introduction - PDF">
                         <div class="rounded-full border-[1px] flex items-center justify-center flex-shrink-0 p-1 border-[#848484]">
-                            <img src="assets/right-arrow.svg" class="h-[40px]">
+                            <img src="assets/images/right-arrow.svg" class="h-[40px]">
                         </div>
                         <div class="list-text">Introduction </div>
                     </a>
                     <a class="border rounded-lg p-[10px] flex gap-x-[10px] items-center border-[#737373]"
                         href="vison-mission.php" aria-label="Vision and Mission - PDF">
                         <div class="rounded-full border-[1px] flex items-center justify-center flex-shrink-0 p-1 border-[#848484]">
-                            <img src="assets/right-arrow.svg" class="h-[40px]">
+                            <img src="assets/images/right-arrow.svg" class="h-[40px]">
                         </div>
                         <div class="list-text">Vision and Mission </div>
                     </a>
                     <a class="border rounded-lg p-[10px] flex gap-x-[10px] items-center border-[#737373]"
                         href="objectives-functions.php" aria-label="Objectives and Functions - PDF">
                         <div class="rounded-full border-[1px] flex items-center justify-center flex-shrink-0 p-1 border-[#848484]">
-                            <img src="assets/right-arrow.svg" class="h-[40px]">
+                            <img src="assets/images/right-arrow.svg" class="h-[40px]">
                         </div>
                         <div class="list-text">Objectives and Functions </div>
                     </a>
                     <a class="border rounded-lg p-[10px] flex gap-x-[10px] items-center border-[#737373]"
                         href="administrative-setup.php" aria-label="Administrative Setup - PDF">
                         <div class="rounded-full border-[1px] flex items-center justify-center flex-shrink-0 p-1 border-[#848484]">
-                            <img src="assets/right-arrow.svg" class="h-[40px]">
+                            <img src="assets/images/right-arrow.svg" class="h-[40px]">
                         </div>
                         <div class="list-text">Administrative Setup </div>
                     </a>
                     <a class="border rounded-lg p-[10px] flex gap-x-[10px] items-center border-[#737373]" href="whos-who.php"
                         aria-label="Whos Who - PDF">
                         <div class="rounded-full border-[1px] flex items-center justify-center flex-shrink-0 p-1 border-[#848484]">
-                            <img src="assets/right-arrow.svg" class="h-[40px]">
+                            <img src="assets/images/right-arrow.svg" class="h-[40px]">
                         </div>
                         <div class="list-text">Whos Who </div>
                     </a>
