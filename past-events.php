@@ -74,11 +74,13 @@
                         </div>
                     </div>
 
-                    <button class="absolute -bottom-5 left-[45%] rounded-full size-9 bg-white  border-2 border-[#FBAC1B] text-[#FBAC1B] flex flex-col items-center justify-center">
-                        <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5 1.5L10 9.5L1.5 15.5" stroke="#FBAC1B" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                    </button>
+                    <a href="constitution-day-celebrated-at-zilla-parishad-palghar.php">
+                        <button class="absolute -bottom-5 left-[45%] rounded-full size-9 bg-white  border-2 border-[#FBAC1B] text-[#FBAC1B] flex flex-col items-center justify-center">
+                            <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5 1.5L10 9.5L1.5 15.5" stroke="#FBAC1B" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </button>
+                    </a>
                 </div>
 
                 <div class="relative bg-white shadow-md min-h-[400px] flex flex-col">
@@ -114,11 +116,13 @@
                         </div>
                     </div>
 
-                    <button class="absolute -bottom-5 left-[45%] rounded-full size-9 bg-white  border-2 border-[#FBAC1B] text-[#FBAC1B] flex flex-col items-center justify-center">
-                        <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.5 1.5L10 9.5L1.5 15.5" stroke="#FBAC1B" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                    </button>
+                    <a href="successful-program-of-health-check-up-of-beneficiaries-migrated-to-brick-kilns-in-palghar-district.php">
+                        <button class="absolute -bottom-5 left-[45%] rounded-full size-9 bg-white  border-2 border-[#FBAC1B] text-[#FBAC1B] flex flex-col items-center justify-center">
+                            <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.5 1.5L10 9.5L1.5 15.5" stroke="#FBAC1B" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </button>
+                    </a>
                 </div>
 
             </div>
