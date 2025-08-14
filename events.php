@@ -10,7 +10,8 @@
 
 <body>
     <?php include_once "include/header.php"; ?>
-    <img src="https://cdnbbsr.s3waas.gov.in/s34dd9cec1c21bc54eecb53786a2c5fa09/uploads/2024/12/202412091606075104.jpg" alt="Tailwind CSS Logo" class="mx-auto min-h-[115px] object-cover">
+    <?php include_once "include/header_img.php"; ?>
+
     <div class="bg-[#F6F3EE]">
         <div class="max-w-7xl min-h-[600px] mx-auto px-4 py-3">
 
