@@ -25,10 +25,10 @@
 
     <!-- News Ticker -->
     <div class="bg-[#f9f7f3] border-b border-[#e0dfdb]">
-        <div class=" mx-auto flex items-center justify-between">
+        <div class=" mx-auto flex flex-col lg:items-center justify-between">
 
             <!-- Left: Latest News label -->
-            <div class="flex items-center border-r border-[#d1d0cc] px-4 py-2 text-gray-800 font-light text-[1.5em]">
+            <div class="flex  items-center border-r border-[#d1d0cc] px-4 py-2 text-gray-800 font-light text-[1.5em]">
                 Latest News
             </div>
 

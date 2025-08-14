@@ -76,14 +76,14 @@ $breadcrumbs = find_breadcrumb_path($menu, $current_page);
 
 <!-- Page Image -->
 <img src="https://cdnbbsr.s3waas.gov.in/s34dd9cec1c21bc54eecb53786a2c5fa09/uploads/2024/12/202412091606075104.jpg"
-    alt="Tailwind CSS Logo" class="mx-auto min-h-[115px] object-cover">
+    alt="Tailwind CSS Logo" class="mx-auto h-auto lg:min-h-[115px] object-cover">
 
 <div class="">
     <div class="max-w-7xl mx-auto px-4 py-3">
-        <div class="flex justify-between items-center">
+        <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-4">
 
             <!-- Breadcrumb -->
-            <nav class="pt-[25px] lg:pb-[20px] pb-[15px] flex flex-col lg:flex-row justify-between gap-y-[15px] text-sm lg:text-base">
+            <nav class="flex flex-wrap items-center text-sm lg:text-base">
                 <a href="index.php" class="text-[#6a4501] hover:text-orange-700">Home</a>
                 <span class="mx-2 text-gray-500">&gt;</span>
                 <?php

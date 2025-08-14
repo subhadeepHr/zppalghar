@@ -35,14 +35,14 @@
     }
 
     .nav-link:hover {
-        background-color: #f0f0f0;
+        /* background-color: #f0f0f0; */
     }
 
     .dropdown-menu {
         position: absolute;
         top: 100%;
         left: 0;
-        background: white;
+        /* background: white; */
         min-width: 250px;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
         opacity: 0;
@@ -61,7 +61,7 @@
     .dropdown-item {
         display: block;
         padding: 12px 20px;
-        color: #333;
+        /* color: #333; */
         text-decoration: none;
         border-bottom: 1px solid #eee;
         transition: all 0.3s ease;
@@ -200,7 +200,7 @@
 
 <!-- Top Header Bar -->
 <div style="background-color: #e4e2da;" class="border-b border-[#c2c0c1] text-xs">
-    <div class="max-w-7xl mx-auto h-[36px] flex justify-between items-center">
+    <!-- <div class="max-w-7xl mx-auto h-[36px] flex justify-between items-center">
         <div class="flex items-center">
             <a lang="mr" href="https://maharashtra.gov.in/" class="topbar-item">महाराष्ट्र शासन</a>
             <a lang="en" href="https://maharashtra.gov.in/" class="topbar-item uppercase">Government of Maharashtra</a>
@@ -226,23 +226,55 @@
                 <img src="assets/images/lang.svg" alt="Language" class="w-[20px] h-[20px]">
             </a>
         </div>
+    </div> -->
+    <div class="max-w-7xl mx-auto h-auto flex flex-col md:flex-row justify-between items-center md:h-[36px] ">
+
+        <!-- This will show second on mobile -->
+        <div class="flex items-center order-2 md:order-1 border-t md:border-t-0 ">
+            <a lang="mr" href="https://maharashtra.gov.in/" class="topbar-item">महाराष्ट्र शासन</a>
+            <a lang="en" href="https://maharashtra.gov.in/" class="topbar-item uppercase">Government of Maharashtra</a>
+        </div>
+
+        <!-- This will show first on mobile -->
+        <div class="flex items-center order-1 md:order-2 ">
+            <a href="" class="topbar-item">
+                <img src="assets/images/skip.svg" alt="Skip" class="w-[20px] h-[20px] mx-auto">
+            </a>
+            <a href="" class="topbar-item">
+                <img src="assets/images/search.svg" alt="Search" class="w-[20px] h-[20px]">
+            </a>
+            <a href="" class="topbar-item">
+                <img src="assets/images/social.svg" alt="Social Media Icons" class="w-[20px] h-[20px]">
+            </a>
+            <a href="" class="topbar-item">
+                <img src="assets/images/sitemap.svg" alt="Sitemap" class="w-[20px] h-[20px]">
+            </a>
+            <a href="" class="topbar-item">
+                <img src="assets/images/accessibility.svg" alt="Accessibility" class="w-[20px] h-[20px]">
+            </a>
+            <a href="" class="topbar-item">
+                <img src="assets/images/lang.svg" alt="Language" class="w-[20px] h-[20px]">
+            </a>
+        </div>
+
     </div>
+
 </div>
 
 <!-- Main Header -->
-<header class="border-b py-4">
+<header class="border-b  lg:py-4">
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex items-center justify-between">
             <!-- Left Logo Section -->
             <div class="flex items-center space-x-4">
                 <div class="w-16 h-16 flex items-center justify-center">
                     <div class="">
-                        <img src="assets/images/emblem.svg" alt="Zilla Parishad Palghar Logo" class="w-14 h-28">
+                        <img src="assets/images/emblem.svg" alt="Zilla Parishad Palghar Logo" class="w-7 h-14 lg:w-14 lg:h-28">
                     </div>
                 </div>
                 <div>
-                    <span lang="mr" class="text-lg">जिल्हा परिषद पालघर </span>
-                    <h1 class="h1-logo text-[1.75em] font-bold">Zilla Parishad Palghar</h1>
+                    <span lang="mr" class="text-md lg:text-lg">जिल्हा परिषद पालघर </span>
+                    <h1 class="h1-logo text-[1em] lg:text-[1.75em] font-bold">Zilla Parishad Palghar</h1>
                 </div>
             </div>
 
@@ -294,10 +326,10 @@
                     <a href="departments.php" class="nav-link">Departments</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link">Citizen's Corner <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                    <a href="citizens-corner.php" class="nav-link">Citizen's Corner <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                     <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">Services</a>
-                        <a href="#" class="dropdown-item">Forms</a>
+                        <a href="citizens-services.php" class="dropdown-item">Services</a>
+                        <a href="citizens-form.php" class="dropdown-item">Forms</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -369,20 +401,20 @@
             <a href="departments.php" class="mobile-nav-link">Departments</a>
         </div>
         <div class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" onclick="toggleMobileSubmenu('citizenSubmenu', this)">
+            <a href="citizens-corner.php" class="mobile-nav-link" onclick="toggleMobileSubmenu('citizenSubmenu', this)">
                 Citizen's Corner
                 <i class="fa fa-plus text-sm"></i>
             </a>
             <div id="citizenSubmenu" class="mobile-submenu">
-                <a href="#" class="mobile-submenu-item">Services</a>
-                <a href="#" class="mobile-submenu-item">Forms</a>
+                <a href="citizens-services.php" class="mobile-submenu-item">Services</a>
+                <a href="citizens-form.php" class="mobile-submenu-item">Forms</a>
             </div>
         </div>
         <div class="mobile-nav-item">
             <a href="schemes-programmes.php" class="mobile-nav-link">Schemes/Programmes</a>
         </div>
         <div class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" onclick="toggleMobileSubmenu('documentsSubmenu', this)">
+            <a href="documents.php" class="mobile-nav-link" onclick="toggleMobileSubmenu('documentsSubmenu', this)">
                 Documents
                 <i class="fa fa-plus text-sm"></i>
             </a>
@@ -397,7 +429,7 @@
             </div>
         </div>
         <div class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" onclick="toggleMobileSubmenu('rtiSubmenu', this)">
+            <a href="rtis.php" class="mobile-nav-link" onclick="toggleMobileSubmenu('rtiSubmenu', this)">
                 RTI
                 <i class="fa fa-plus text-sm"></i>
             </a>
@@ -408,7 +440,7 @@
             </div>
         </div>
         <div class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" onclick="toggleMobileSubmenu('noticesSubmenu', this)">
+            <a href="notices.php" class="mobile-nav-link" onclick="toggleMobileSubmenu('noticesSubmenu', this)">
                 Notices
                 <i class="fa fa-plus text-sm"></i>
             </a>
@@ -482,7 +514,7 @@
         <ul role="menu" class="space-y-1">
 
             <li class="relative group">
-                <a href="#"
+                <a href="maharashtra-right-to-public-service-act.php"
                     class="block px-3 py-2 hover:bg-black/40 hover:text-white">Maharashtra Right to Public Service Act</a>
             </li>
 
