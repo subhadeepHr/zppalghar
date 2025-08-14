@@ -178,7 +178,7 @@
                 <div class="lg:col-span-1">
                     <div class="w-full max-w-sm mx-auto p-5 bg-white rounded-lg shadow border-2">
                         <h2 class="text-lg font-bold mb-4 flex items-center space-x-2">
-                            <span class="icon-group-fill"></span>
+                            <i class="fa fa-users" aria-hidden="true"></i>
                             <span>Quick Links</span>
                         </h2>
 
@@ -324,53 +324,53 @@
 
                 <!-- Panchayat Committee -->
                 <div class="col-span-1">
-                    <ul class="border-2 border-gray-300 rounded-lg p-4 space-y-2">
-                        <li class="  ">
+                    <ul class="border-2 border-gray-300 rounded-lg p-4">
+                        <li class="mb-5">
                             <div class="list-anchor">
                                 <span class="list-icon gray-bg icon-group-line border-radius-round"></span>
-                                <div class="list-text">Panchayat Samiti Palghar </div>
+                                <div class="list-text"><i class="fa fa-users" aria-hidden="true"></i> Panchayat Samiti Palghar </div>
                             </div>
                         </li>
-                        <li class="  ">
+                        <li class="mb-5">
                             <div class="list-anchor">
                                 <span class="list-icon gray-bg icon-group-line border-radius-round"></span>
-                                <div class="list-text">Panchayat Samiti Dahanu </div>
+                                <div class="list-text"><i class="fa fa-users" aria-hidden="true"></i> Panchayat Samiti Dahanu </div>
                             </div>
                         </li>
-                        <li class="  ">
+                        <li class="mb-5">
                             <div class="list-anchor">
                                 <span class="list-icon gray-bg icon-group-line border-radius-round"></span>
-                                <div class="list-text">Panchayat Samiti Vasai </div>
+                                <div class="list-text"><i class="fa fa-users" aria-hidden="true"></i> Panchayat Samiti Vasai </div>
                             </div>
                         </li>
-                        <li class="  ">
+                        <li class="mb-5">
                             <div class="list-anchor">
                                 <span class="list-icon gray-bg icon-group-line border-radius-round"></span>
-                                <div class="list-text">Panchayat Samiti Wada </div>
+                                <div class="list-text"><i class="fa fa-users" aria-hidden="true"></i> Panchayat Samiti Wada </div>
                             </div>
                         </li>
-                        <li class="  ">
+                        <li class="mb-5">
                             <div class="list-anchor">
                                 <span class="list-icon gray-bg icon-group-line border-radius-round"></span>
-                                <div class="list-text">Panchayat Samiti Vikramgad </div>
+                                <div class="list-text"><i class="fa fa-users" aria-hidden="true"></i> Panchayat Samiti Vikramgad </div>
                             </div>
                         </li>
-                        <li class="  ">
+                        <li class="mb-5">
                             <div class="list-anchor">
                                 <span class="list-icon gray-bg icon-group-line border-radius-round"></span>
-                                <div class="list-text">Panchayat Samiti Mokhada </div>
+                                <div class="list-text"><i class="fa fa-users" aria-hidden="true"></i> Panchayat Samiti Mokhada </div>
                             </div>
                         </li>
-                        <li class="  ">
+                        <li class="mb-5">
                             <div class="list-anchor">
                                 <span class="list-icon gray-bg icon-group-line border-radius-round"></span>
-                                <div class="list-text">Panchayat Samiti Jawhar </div>
+                                <div class="list-text"><i class="fa fa-users" aria-hidden="true"></i> Panchayat Samiti Jawhar </div>
                             </div>
                         </li>
-                        <li class="  ">
+                        <li class="mb-5">
                             <div class="list-anchor">
                                 <span class="list-icon gray-bg icon-group-line border-radius-round"></span>
-                                <div class="list-text">Panchayat Samiti Talasari </div>
+                                <div class="list-text"><i class="fa fa-users" aria-hidden="true"></i> Panchayat Samiti Talasari </div>
                             </div>
                         </li>
                     </ul>
@@ -380,33 +380,33 @@
                 </div>
                 <div class="col-span-1">
                     <ul class="border-2 border-gray-300 rounded-lg p-4 space-y-2">
-                        <ul class="helpline-list-box list-disc list-inline space-y-2 text-black text-sm px-4">
-                            <li class=" ">
+                        <ul class="helpline-list-box list-disc list-inline s text-black text-sm px-4">
+                            <li class="mb-5">
                                 <div class="list-anchor">
                                     <div class="list-text">Child Helpline: <strong>1098</strong></div>
                                 </div>
                             </li>
-                            <li class=" ">
+                            <li class="mb-5">
                                 <div class="list-anchor">
                                     <div class="list-text">Women Helpline: <strong>1091</strong></div>
                                 </div>
                             </li>
-                            <li class=" ">
+                            <li class="mb-5">
                                 <div class="list-anchor">
                                     <div class="list-text">Crime Stopper: <strong>1090</strong></div>
                                 </div>
                             </li>
-                            <li class=" ">
+                            <li class="mb-5">
                                 <div class="list-anchor">
                                     <div class="list-text">Emergency Helpline: <strong>112</strong></div>
                                 </div>
                             </li>
-                            <li class=" ">
+                            <li class="mb-5">
                                 <div class="list-anchor">
                                     <div class="list-text">Emergency Police: <strong>100</strong></div>
                                 </div>
                             </li>
-                            <li class=" ">
+                            <li class="mb-5">
                                 <div class="list-anchor">
                                     <div class="list-text">Citizen’s Call center: <strong>155300</strong></div>
                                 </div>

@@ -247,6 +247,9 @@ ul li .socialIcons {
 .footerScrollbar li {
   border-right: 3px solid #eee;
 }
+.footerScrollbar .flex-control-nav {
+  display: none !important;
+}
 .hero-section {
   background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
   position: relative;
@@ -1067,4 +1070,58 @@ html {
   max-width: 80px;
   font-size: 12px;
   margin: 0 0 0 12px;
+}
+.service .service-container .service-content {
+  text-align: center;
+}
+.service .service-container .service-content ul {
+  padding: 0;
+}
+.service .service-container .service-content .service-box {
+  display: block;
+  float: left;
+  border: 1px solid #e1e1e1;
+  min-height: 150px;
+  padding: 18px 25px;
+  width: 12%;
+  margin: 0 1.75% 1.75% 0;
+  -webkit-transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -ms-transition: 0.5s ease all;
+  -o-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
+.service .service-container .service-content .service-box a {
+  color: #000000;
+}
+.service .service-container .service-content .service-box a {
+  display: block;
+}
+.service .service-container .service-content .service-box a span:first-child {
+  font-size: 3em;
+  line-height: 52px;
+}
+/* .service .service-container .service-content .service-box a span
+Specificity: (0,4,2) {
+  display: block;
+} */
+.service .service-container .service-content .service-box:hover {
+  background-color: #fbac1b;
+  color: #ffffff;
+}
+.service .service-container .service-content .service-box:hover a {
+  color: #ffffff;
+}
+.service .service-container .service-content .service-box a span:first-child {
+  font-size: 3em;
+  line-height: 52px;
+}
+
+.service .service-container .service-content .service-box a span {
+  display: block;
+}
+@media (max-width: 1199px) {
+  .service .service-container .service-content .service-box {
+    width: 14%;
+  }
 }
