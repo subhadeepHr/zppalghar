@@ -177,39 +177,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Print functionality
-  function printPage() {
-    window.print();
-  }
-
-  // Add print button if needed
-  const printBtn = document.querySelector(".print-btn");
-  if (printBtn) {
-    printBtn.addEventListener("click", printPage);
-  }
-
-  // Search functionality (basic)
-  const searchInput = document.querySelector(".search-input");
-  const searchBtn = document.querySelector(".search-btn");
-
-  if (searchInput && searchBtn) {
-    searchBtn.addEventListener("click", function () {
-      const query = searchInput.value.trim();
-      if (query) {
-        // Implement search functionality
-        console.log("Searching for:", query);
-        // This would typically redirect to a search results page
-        // window.location.href = `/search?q=${encodeURIComponent(query)}`;
-      }
-    });
-
-    searchInput.addEventListener("keypress", function (e) {
-      if (e.key === "Enter") {
-        searchBtn.click();
-      }
-    });
-  }
-
   // Back to top button
   function createBackToTopButton() {
     const button = document.createElement("button");
@@ -393,22 +360,74 @@ jQuery(window).scroll(function () {
     jQuery(".menuWrapper").removeClass("is-sticky");
   }
 });
-const openBtn = document.getElementById("openSidebar");
-const closeBtn = document.getElementById("closeSidebar");
-const sidebar = document.getElementById("sidebar");
-const overlay = document.getElementById("sidebarOverlay");
+// const openBtn = document.getElementById("openSidebar");
+// const closeBtn = document.getElementById("closeSidebar");
+// const sidebar = document.getElementById("sidebar");
+// const overlay = document.getElementById("sidebarOverlay");
 
-openBtn.addEventListener("click", () => {
-  sidebar.classList.remove("translate-x-full");
-  overlay.classList.remove("hidden");
-});
+// openBtn.addEventListener("click", () => {
+//   sidebar.classList.remove("translate-x-full");
+//   overlay.classList.remove("hidden");
+// });
 
-closeBtn.addEventListener("click", () => {
-  sidebar.classList.add("translate-x-full");
-  overlay.classList.add("hidden");
-});
+// closeBtn.addEventListener("click", () => {
+//   sidebar.classList.add("translate-x-full");
+//   overlay.classList.add("hidden");
+// });
 
-overlay.addEventListener("click", () => {
-  sidebar.classList.add("translate-x-full");
-  overlay.classList.add("hidden");
-});
+// overlay.addEventListener("click", () => {
+//   sidebar.classList.add("translate-x-full");
+//   overlay.classList.add("hidden");
+// });
+
+/**** Snehashis */
+// Print functionality
+function printWholePage() {
+  window.print();
+}
+
+// Add print button functionality
+const printBtn = document.querySelector("#socialPrintBtn");
+if (printBtn) {
+  printBtn.addEventListener("click", printWholePage);
+}
+
+// Filter functionality for document pages
+function handleFilterRedirect() {
+  const filterSelect = document.querySelector("#categoryFilter");
+  const filterButton = document.querySelector("#filterButton");
+
+  if (filterSelect && filterButton) {
+    filterButton.addEventListener("click", function (e) {
+      e.preventDefault();
+      const selectedValue = filterSelect.value;
+
+      // Define the mapping between select values and page URLs
+      const pageMapping = {
+        all: "documents.php",
+        acts_rules: "act-rules.php",
+        circulars_notifications: "circulars-notifications.php",
+        annual_reports: "annual-reports.php",
+        budget_information: "budget-information.php",
+        citizen_charter: "citizen-charter.php",
+        government_orders: "government-orders.php",
+        rti_documents: "rti-documents-manuals.php",
+      };
+
+      // Get the target page URL
+      const targetPage = pageMapping[selectedValue];
+      window.location.href = targetPage;
+    });
+
+    // Also handle Enter key press on the select element
+    filterSelect.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        filterButton.click();
+      }
+    });
+  }
+}
+
+// Initialize filter functionality
+handleFilterRedirect();

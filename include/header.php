@@ -71,13 +71,13 @@
                       <a href="index.php" class="nav-link bg-[#fbad1a] ">Home</a>
                   </li>
                   <li class="nav-item dropdown">
-                      <a href="about/index.php" class="nav-link">About Us <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                      <a href="about.php" class="nav-link">About Us <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                       <div class="dropdown-menu">
-                          <a href="about/introduction.php" class="dropdown-item">Introduction</a>
-                          <a href="about/vision-mission.php" class="dropdown-item">Vision &amp; Mission</a>
-                          <a href="about/objectives-functions.php" class="dropdown-item">Objectives &amp; Functions</a>
-                          <a href="about/administrative-setup.php" class="dropdown-item">Administrative Setup</a>
-                          <a href="about/whos-who.php" class="dropdown-item">Who’s Who</a>
+                          <a href="introduction.php" class="dropdown-item">Introduction</a>
+                          <a href="vison-mission.php" class="dropdown-item">Vision &amp; Mission</a>
+                          <a href="objectives-functions.php" class="dropdown-item">Objectives &amp; Functions</a>
+                          <a href="administrative-setup.php" class="dropdown-item">Administrative Setup</a>
+                          <a href="whos-who.php" class="dropdown-item">Who’s Who</a>
                       </div>
                   </li>
                   <li class="nav-item">
@@ -96,27 +96,27 @@
                       </div>
                   </li>
                   <li class="nav-item">
-                      <a href="#" class="nav-link">Schemes/Programmes</a>
+                      <a href="schemes-programmes.php" class="nav-link">Schemes/Programmes</a>
                   </li>
 
                   <li class="nav-item dropdown">
-                      <a href="index.php" class="nav-link">Documents <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                      <a href="documents.php" class="nav-link">Documents <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                       <div class="dropdown-menu">
-                          <a href="documents/annual-reports.PHP" class="dropdown-item">Annual Reports</a>
-                          <a href="documents/budget-information.PHP" class="dropdown-item">Budget Information</a>
-                          <a href="documents/citizen-charter.PHP" class="dropdown-item">Citizen Charter</a>
-                          <a href="documents/rti-documents-manuals.PHP" class="dropdown-item">RTI Documents / Manuals</a>
-                          <a href="documents/government-orders.PHP" class="dropdown-item">Government Orders</a>
-                          <a href="documents/circulars-notifications.PHP" class="dropdown-item">Circulars / Notifications</a>
-                          <a href="documents/acts-rules.PHP" class="dropdown-item">Acts &amp; Rules</a>
+                          <a href="annual-reports.PHP" class="dropdown-item">Annual Reports</a>
+                          <a href="budget-information.PHP" class="dropdown-item">Budget Information</a>
+                          <a href="citizen-charter.PHP" class="dropdown-item">Citizen Charter</a>
+                          <a href="rti-documents-manuals.PHP" class="dropdown-item">RTI Documents / Manuals</a>
+                          <a href="government-orders.PHP" class="dropdown-item">Government Orders</a>
+                          <a href="circulars-notifications.PHP" class="dropdown-item">Circulars / Notifications</a>
+                          <a href="acts-rules.PHP" class="dropdown-item">Acts &amp; Rules</a>
                       </div>
                   </li>
                   <li class="nav-item dropdown">
-                      <a href="#" class="nav-link">RTI <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                      <a href="rti-documents.php" class="nav-link">RTI <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                       <div class="dropdown-menu">
-                          <a href="#" class="dropdown-item">Right to Information Sections 1 to 17 Information</a>
-                          <a href="#" class="dropdown-item">RTI Documents</a>
-                          <a href="#" class="dropdown-item">RTI Contacts</a>
+                          <a href="right-to-information-sections-1-to-17-information.php" class="dropdown-item">Right to Information Sections 1 to 17 Information</a>
+                          <a href="rti-documents.php" class="dropdown-item">RTI Documents</a>
+                          <a href="rti-contacts-pios-apios-aas.php" class="dropdown-item">RTI Contacts</a>
                       </div>
                   </li>
                   <li class="nav-item dropdown">

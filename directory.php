@@ -34,21 +34,21 @@
                 bg: "bg-orange-500",
                 iconBg: "bg-white",
                 iconColor: "text-black",
-                link: "./directory/blank.php"
+                link: "directory_blank.php"
             },
             {
                 name: "Gram Panchayat Department",
                 bg: "border border-black",
                 iconBg: "bg-[#1673b4]",
                 iconColor: "text-black",
-                link: "./directory/zp-palghar-contact-of-hod.php"
+                link: "directory_zp-palghar-contact-of-hod.php"
             },
             {
                 name: "District Rural Development Agency (DRDA)",
                 bg: "bg-green-800",
                 iconBg: "bg-white",
                 iconColor: "text-black",
-                link: "./directory/contact-details-of-panchayat-samiti.php"
+                link: "directory_contact-details-of-panchayat-samiti.php"
 
             }
         ];

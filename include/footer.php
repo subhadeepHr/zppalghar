@@ -4,12 +4,12 @@
             <div class="w-full text-center">
                 <nav class="footerMenu" aria-label="Footer navigation menu">
                     <ul id="menu-footer-en" class="menu">
-                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="feedback/index.html">Feedback</a></li>
-                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="website-policies/index.html">Website Policies</a></li>
-                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://www.zppalghar.gov.in/website-visitor-summary-2/">Website Visitor Summary</a></li>
-                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="contact-us/index.html">Contact Us</a></li>
-                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="help/index.html">Help</a></li>
-                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="web-information-manager/index.html">Web Information Manager</a></li>
+                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="feedback.php">Feedback</a></li>
+                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="policies.php">Website Policies</a></li>
+                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="visitorSummery.php">Website Visitor Summary</a></li>
+                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="contactUs.php">Contact Us</a></li>
+                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="helpPage.php">Help</a></li>
+                        <li id="" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="informationManager.php">Web Information Manager</a></li>
                     </ul>
                 </nav>
             </div>
