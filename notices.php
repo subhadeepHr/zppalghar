@@ -34,32 +34,32 @@
         // Notice categories configuration
         const noticeCategories = [{
                 title: "Events",
-                href: "#events",
+                href: "events.php",
                 ariaLabel: "Events"
             },
             {
                 title: "Past Events",
-                href: "#past-events",
+                href: "past-events.php",
                 ariaLabel: "Past Events"
             },
             {
                 title: "Announcements (General)",
-                href: "#announcements-general",
+                href: "announcements-general.php",
                 ariaLabel: "General Announcements"
             },
             {
                 title: "Announcements (Budgetary)",
-                href: "#announcements-budgetary",
+                href: "announcements-budgetary.php",
                 ariaLabel: "Budgetary Announcements"
             },
             {
                 title: "Recruitments",
-                href: "#recruitments",
+                href: "recruitments.php",
                 ariaLabel: "Recruitments"
             },
             {
                 title: "Tenders",
-                href: "#tenders",
+                href: "tenders.php",
                 ariaLabel: "Tenders"
             }
         ];
