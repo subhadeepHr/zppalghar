@@ -51,6 +51,7 @@ $menu = [
     ['title' => 'Contact Us', 'url' => 'contactUs.php'],
     ['title' => 'Help', 'url' => 'helpPage.php'],
     ['title' => 'Web Information Manager', 'url' => 'informationManager.php'],
+    ['title' => 'Maharashtra Right to Public Service Act', 'url' => 'maharashtra-right-to-public-service-act.php'],
 ];
 
 // Recursive search for breadcrumb path
