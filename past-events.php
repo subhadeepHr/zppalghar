@@ -44,7 +44,7 @@
                 <div class="relative bg-white shadow-md min-h-[400px] flex flex-col">
                     <!-- Image Container -->
                     <div class="w-full h-36 aspect-video flex-shrink-0 overflow-hidden">
-                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="/assets/images/past-events-1.jpeg" alt="past event 1">
+                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="assets/images/past-events-1.jpeg" alt="past event 1">
                     </div>
                     <!-- Text Content -->
                     <div class="relative p-4 pb-8 flex-1 flex flex-col justify-between gap-y-4">
@@ -84,7 +84,7 @@
                 <div class="relative bg-white shadow-md min-h-[400px] flex flex-col">
                     <!-- Image Container -->
                     <div class="w-full h-36 aspect-video flex-shrink-0 overflow-hidden">
-                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="/assets/images/past-events-2.jpeg" alt="past event 1">
+                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="assets/images/past-events-2.jpeg" alt="past event 1">
                     </div>
                     <!-- Text Content -->
                     <div class="relative p-4 pb-8 flex-1 flex flex-col justify-between gap-y-4">
@@ -130,7 +130,7 @@
                 <div class=" bg-white shadow-md flex">
                     <!-- Image Container -->
                     <div class="w-96 h-48 aspect-video flex-shrink-0 overflow-hidden">
-                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="/assets/images/past-events-1.jpeg" alt="past event 1">
+                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="assets/images/past-events-1.jpeg" alt="past event 1">
                     </div>
                     <!-- Text Content -->
                     <div class="relative p-4 flex flex-col justify-between gap-y-4">
@@ -176,7 +176,7 @@
                 <div class=" bg-white shadow-md flex">
                     <!-- Image Container -->
                     <div class="w-96 h-48 aspect-video flex-shrink-0 overflow-hidden">
-                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="/assets/images/past-events-2.jpeg" alt="past event 2">
+                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="assets/images/past-events-2.jpeg" alt="past event 2">
                     </div>
                     <!-- Text Content -->
                     <div class="relative p-4 flex flex-col justify-between gap-y-4">
