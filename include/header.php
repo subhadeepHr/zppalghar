@@ -88,10 +88,10 @@
                   </li>
 
                   <li class="nav-item dropdown">
-                      <a href="#" class="nav-link">Citizen’s Corner <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                      <a href="citizens-corner.php" class="nav-link">Citizen’s Corner <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                       <div class="dropdown-menu">
-                          <a href="#" class="dropdown-item">Services</a>
-                          <a href="#" class="dropdown-item">Forms</a>
+                          <a href="citizens-services.php" class="dropdown-item">Services</a>
+                          <a href="citizens-form.php" class="dropdown-item">Forms</a>
 
                       </div>
                   </li>

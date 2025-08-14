@@ -12,9 +12,16 @@ $menu = [
     ]],
     ['title' => 'Directory', 'url' => 'directory.php'],
     ['title' => 'Departments', 'url' => 'departments.php'],
-    ['title' => 'Citizen’s Corner', 'url' => '#', 'children' => [
-        ['title' => 'Services', 'url' => '#'],
-        ['title' => 'Forms', 'url' => '#']
+    ['title' => 'Citizen’s Corner', 'url' => 'citizens-corner.php', 'children' => [
+        ['title' => 'Services', 'url' => 'citizens-services.php'],
+        ['title' => 'Common Service Centers (CSC)', 'url' => 'common-service-centers-csc.php'],
+        ['title' => 'SWAYAM portal', 'url' => 'swayam-portal.php'],
+        ['title' => 'Certificate', 'url' => 'certificate-category.php'],
+        ['title' => 'Revenue', 'url' => 'revenue-category.php'],
+        ['title' => 'Electoral', 'url' => 'electoral-category.php'],
+        ['title' => 'Education', 'url' => 'education-category.php'],
+        ['title' => 'Maharashtra Public Service Rights Act', 'url' => 'mpsra.php'],
+        ['title' => 'Forms', 'url' => 'citizens-form.php']
     ]],
     ['title' => 'Schemes/Programmes', 'url' => 'schemes-programmes.php'],
     ['title' => 'Documents', 'url' => 'documents.php', 'children' => [

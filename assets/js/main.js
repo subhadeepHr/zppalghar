@@ -415,6 +415,45 @@ $(".footerScrollbar").flexslider({
 //     }, 0);
 //   });
 // });
+
+// Filter functionality for document pages
+function handleFilterRedirectService() {
+  const filterSelect = document.querySelector("#categoryFilterService");
+  const filterButton = document.querySelector("#filterButtonService");
+
+  if (filterSelect && filterButton) {
+    filterButton.addEventListener("click", function (e) {
+      e.preventDefault();
+      const selectedValue = filterSelect.value;
+
+      // Define the mapping between select values and page URLs
+      const pageMapping = {
+        all: "citizens-services.php",
+        certificates: "certificate-category.php",
+        revenue: "revenue-category.php",
+        electoral: "electoral-category.php",
+        education: "education-category.php",
+        maharashtra_public_service_rights_act: "mpsra.php",
+      };
+
+      // Get the target page URL
+      const targetPage = pageMapping[selectedValue];
+      window.location.href = targetPage;
+    });
+
+    // Also handle Enter key press on the select element
+    filterSelect.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        filterButton.click();
+      }
+    });
+  }
+}
+
+// Initialize filter functionality
+handleFilterRedirectService();
+
 /**** Snehashis */
 // Print functionality
 function printWholePage() {
