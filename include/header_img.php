@@ -45,7 +45,8 @@ $menu = [
         ['title' => 'Recruitments', 'url' => 'recruitments.php'],
         ['title' => 'Tenders', 'url' => 'tenders.php'],
         ['title' => 'Constitution Day celebrated at Zilla Parishad Palghar', 'url' => 'constitution-day-celebrated-at-zilla-parishad-palghar.php'],
-        ['title' => 'Successful program of health check-up of beneficiaries migrated to brick kilns in Palghar district', 'url' => 'successful-program-of-health-check-up-of-beneficiaries-migrated-to-brick-kilns-in-palghar-district.php']
+        ['title' => 'Successful program of health check-up of beneficiaries migrated to brick kilns in Palghar district', 'url' => 'successful-program-of-health-check-up-of-beneficiaries-migrated-to-brick-kilns-in-palghar-district.php'],
+        ['title' => 'Announcements (Budgetary)', 'url' => 'announcements-budgetary.php']
     ]],
     ['title' => 'Feedback', 'url' => 'feedback.php'],
     ['title' => 'Website Policies', 'url' => 'policies.php'],
