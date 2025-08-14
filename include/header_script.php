@@ -24,5 +24,5 @@
     <link href="https://cdn.jsdelivr.net/npm/icomoon@1.0.0/style.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="assets/css/base.css" type="text/css"> -->
-    <link rel="stylesheet" href="http://localhost/zppalghar/assets/css/flexslider.css" type="text/css">
-    <link rel="stylesheet" href="http://localhost/zppalghar/assets/css/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="https://nuzion.in/palghar/assets/css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="https://nuzion.in/palghar/assets/css/print.css" type="text/css" media="print">
