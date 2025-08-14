@@ -120,7 +120,7 @@
                       </div>
                   </li>
                   <li class="nav-item dropdown">
-                      <a href="#" class="nav-link">Notices <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                      <a href="notices.php" class="nav-link">Notices <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                       <div class="dropdown-menu">
                           <a href="#" class="dropdown-item">Events</a>
                           <a href="#" class="dropdown-item">Past Events</a>
