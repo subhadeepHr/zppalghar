@@ -112,7 +112,7 @@
                       </div>
                   </li>
                   <li class="nav-item dropdown">
-                      <a href="rti-documents.php" class="nav-link">RTI <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                      <a href="rtis.php" class="nav-link">RTI <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                       <div class="dropdown-menu">
                           <a href="right-to-information-sections-1-to-17-information.php" class="dropdown-item">Right to Information Sections 1 to 17 Information</a>
                           <a href="rti-documents.php" class="dropdown-item">RTI Documents</a>
