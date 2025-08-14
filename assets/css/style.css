@@ -247,6 +247,9 @@ ul li .socialIcons {
 .footerScrollbar li {
   border-right: 3px solid #eee;
 }
+.footerScrollbar .flex-control-nav {
+  display: none !important;
+}
 .hero-section {
   background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
   position: relative;

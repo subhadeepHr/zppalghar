@@ -178,30 +178,30 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Back to top button
-  function createBackToTopButton() {
-    const button = document.createElement("button");
-    button.innerHTML = "↑";
-    button.className =
-      "fixed bottom-4 right-4 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 opacity-0 invisible";
-    button.setAttribute("aria-label", "Back to top");
+  // function createBackToTopButton() {
+  //   const button = document.createElement("button");
+  //   button.innerHTML = "↑";
+  //   button.className =
+  //     "fixed bottom-4 right-4 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 opacity-0 invisible";
+  //   button.setAttribute("aria-label", "Back to top");
 
-    document.body.appendChild(button);
+  //   document.body.appendChild(button);
 
-    window.addEventListener("scroll", function () {
-      if (window.pageYOffset > 300) {
-        button.classList.remove("opacity-0", "invisible");
-      } else {
-        button.classList.add("opacity-0", "invisible");
-      }
-    });
+  //   window.addEventListener("scroll", function () {
+  //     if (window.pageYOffset > 300) {
+  //       button.classList.remove("opacity-0", "invisible");
+  //     } else {
+  //       button.classList.add("opacity-0", "invisible");
+  //     }
+  //   });
 
-    button.addEventListener("click", function () {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    });
-  }
+  //   button.addEventListener("click", function () {
+  //     window.scrollTo({
+  //       top: 0,
+  //       behavior: "smooth",
+  //     });
+  //   });
+  // }
 
   // Initialize back to top button
   createBackToTopButton();
@@ -382,6 +382,8 @@ jQuery(window).scroll(function () {
 $(".footerScrollbar").flexslider({
   animation: "slide",
   animationLoop: false,
+  controlNav: false, //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+  directionNav: false,
   itemWidth: 210,
   itemMargin: 5,
 });
