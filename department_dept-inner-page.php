@@ -11,28 +11,9 @@
 
 <body class="bg-[#f6f3ee] font-sans">
     <?php include_once "include/header.php"; ?>
+    <?php include_once "include/header_img.php"; ?>
     <!-- Header -->
-    <div class="">
-        <div class="max-w-7xl mx-auto px-4 py-3">
-            <div class="flex justify-between items-center">
-                <!-- Breadcrumb -->
-                <nav class="text-md">
-                    <a href="#" class="text-orange-600 hover:text-orange-700">Home</a>
-                    <span class="mx-2 text-gray-500">></span>
-                    <span class="text-gray-700">General Administration Department</span>
-                </nav>
 
-                <!-- Social Icons -->
-                <div class="flex space-x-3">
-                    <a href="#" class="text-gray-600 hover:text-blue-600"><i class="fas fa-print"></i></a>
-                    <a href="#" class="text-gray-600 hover:text-blue-600"><i class="fas fa-share-alt"></i></a>
-                    <a href="#" class="text-blue-600 hover:text-blue-700"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="text-blue-400 hover:text-blue-500"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-blue-700 hover:text-blue-800"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Main Title -->
     <div class="max-w-7xl mx-auto px-4 py-6">

@@ -13,7 +13,7 @@
 
 <body class="bg-[#f6f3ee] ">
     <?php include_once "include/header.php"; ?>
-
+    <?php include_once "include/header_img.php"; ?>
     <div class="max-w-7xl mx-auto my-5">
         <!-- Title -->
         <div class="">

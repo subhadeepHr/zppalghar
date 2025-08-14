@@ -12,42 +12,13 @@
 
 <body class="bg-[#f6f3ee] font-sans">
     <?php include_once "include/header.php"; ?>
+    <?php include_once "include/header_img.php"; ?>
     <!-- Header -->
-    <div class="">
-        <div class="max-w-7xl mx-auto px-4 py-3">
-            <div class="flex justify-between items-center">
-                <!-- Breadcrumb -->
-                <nav class="text-sm">
-                    <a href="#" class="text-orange-600 hover:text-orange-700">Home</a>
-                    <span class="mx-2 text-gray-500">></span>
-                    <span class="text-gray-700">Documents</span>
-                </nav>
 
-                <!-- Social Icons -->
-                <div class="flex items-center space-x-2">
-                    <button id="print" tabindex="0" aria-label="Print Page Content"
-                        class="cursor-pointer hover:opacity-75 transition-opacity">
-                        <img src="assets/print_icon.svg" alt="print icon" class="size-5" />
-                    </button>
-                    <span>/</span>
-                    <img src="assets/share_icon.svg" alt="share icon" class="size-5" />
-                    <a
-                        href="https://www.facebook.com/sharer/sharer.php?u=https://www.zppalghar.gov.in/en/documents/&t=Documents"><img
-                            src="assets/facebook_social_icon.svg" alt="facebook icon" class="size-5"></a>
-                    <a href="https://x.com/share?url=https://www.zppalghar.gov.in/en/documents/&via=TWITTER_HANDLE&text=Documents"
-                        class="text-blue-400 hover:text-blue-500"><img src="assets/twitter_social_icon.svg"
-                            alt="twitter icon" class="size-5"></a>
-                    <a href="http://www.linkedin.com/sharing/share-offsite/?url=https://www.zppalghar.gov.in/en/documents/&mini=true"
-                        class="text-blue-700 hover:text-blue-800"><img src="assets/linkedin_social_icon.svg"
-                            alt="linkedin icon" class="size-5"></a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Main Title -->
     <div class="max-w-7xl mx-auto px-4 py-6">
-        <h1 class="text-[28px] font-semibold text-gray-900">Documents</h1>
+        <h1 class="text-[28px] font-semibold text-gray-900"><?= $ct ?></h1>
     </div>
 
     <!-- Search Bar with filter -->

@@ -11,6 +11,7 @@
 
 <body class="min-h-screen" style="background-color: #f6f3ee;">
     <?php include_once "include/header.php"; ?>
+    <?php include_once "include/header_img.php"; ?>
     <div class="max-w-7xl mx-auto">
         <!-- Page Title -->
         <h1 class="text-[28px] font-semibold text-gray-800 mb-6">Zilla Parishad Palghar Contact of Head of Departments

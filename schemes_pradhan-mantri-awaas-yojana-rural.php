@@ -10,12 +10,9 @@
 
 <body class="bg-[#f9f7f2] text-[#111] ">
     <?php include_once "include/header.php"; ?>
-    <div class="max-w-7xl mx-auto p-10">
-        <nav class="mb-6 text-sm">
-            <a href="schemes-programmes.html" class="text-yellow-700 hover:underline">Home</a>
-            <span class="mx-1">&gt;</span>
-            <span>Pradhan Mantri JANMAN Awaas Yojana</span>
-        </nav>
+    <?php include_once "include/header_img.php"; ?>
+    <div class="max-w-7xl mx-auto py-10">
+
 
         <h1 class="text-4xl font-medium mb-6">Pradhan Mantri JANMAN Awaas Yojana</h1>
         <p class="mb-6"><strong>2 .Pradhan Mantri JANMAN Awaas Yojana</strong></p>

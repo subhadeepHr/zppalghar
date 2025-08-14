@@ -12,12 +12,10 @@
 
 <body class="bg-[#faf8f4]">
     <?php include_once "include/header.php"; ?>
-    <div class="max-w-7xl mx-auto p-6">
+    <?php include_once "include/header_img.php"; ?>
+    <div class="max-w-7xl mx-auto py-6">
         <!-- Breadcrumb -->
-        <div class="p-4 text-sm text-gray-600">
-            <a href="schemes-programmes.html" class="text-gray-500 hover:underline">Home</a> &gt;
-            <span>District Rural Development Agency (DRDA)</span>
-        </div>
+
 
         <!-- Title -->
         <div class="px-6">

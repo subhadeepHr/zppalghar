@@ -102,13 +102,13 @@
                   <li class="nav-item dropdown">
                       <a href="documents.php" class="nav-link">Documents <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                       <div class="dropdown-menu">
-                          <a href="annual-reports.PHP" class="dropdown-item">Annual Reports</a>
-                          <a href="budget-information.PHP" class="dropdown-item">Budget Information</a>
-                          <a href="citizen-charter.PHP" class="dropdown-item">Citizen Charter</a>
-                          <a href="rti-documents-manuals.PHP" class="dropdown-item">RTI Documents / Manuals</a>
-                          <a href="government-orders.PHP" class="dropdown-item">Government Orders</a>
-                          <a href="circulars-notifications.PHP" class="dropdown-item">Circulars / Notifications</a>
-                          <a href="acts-rules.PHP" class="dropdown-item">Acts &amp; Rules</a>
+                          <a href="annual-reports.php" class="dropdown-item">Annual Reports</a>
+                          <a href="budget-information.php" class="dropdown-item">Budget Information</a>
+                          <a href="citizen-charter.php" class="dropdown-item">Citizen Charter</a>
+                          <a href="rti-documents-manuals.php" class="dropdown-item">RTI Documents / Manuals</a>
+                          <a href="government-orders.php" class="dropdown-item">Government Orders</a>
+                          <a href="circulars-notifications.php" class="dropdown-item">Circulars / Notifications</a>
+                          <a href="act-rules.php" class="dropdown-item">Acts &amp; Rules</a>
                       </div>
                   </li>
                   <li class="nav-item dropdown">
