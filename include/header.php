@@ -358,11 +358,11 @@
                 <li class="nav-item dropdown">
                     <a href="notices.php" class="nav-link">Notices <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                     <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">Events</a>
-                        <a href="#" class="dropdown-item">Past Events</a>
-                        <a href="#" class="dropdown-item">Announcements (General)</a>
-                        <a href="#" class="dropdown-item">Recruitments</a>
-                        <a href="#" class="dropdown-item">Tenders</a>
+                        <a href="events.php" class="dropdown-item">Events</a>
+                        <a href="past-events.php" class="dropdown-item">Past Events</a>
+                        <a href="announcements-general.php" class="dropdown-item">Announcements (General)</a>
+                        <a href="recruitments.php" class="dropdown-item">Recruitments</a>
+                        <a href="tenders.php" class="dropdown-item">Tenders</a>
                     </div>
                 </li>
             </ul>
@@ -445,11 +445,11 @@
                 <i class="fa fa-plus text-sm"></i>
             </a>
             <div id="noticesSubmenu" class="mobile-submenu">
-                <a href="#" class="mobile-submenu-item">Events</a>
-                <a href="#" class="mobile-submenu-item">Past Events</a>
-                <a href="#" class="mobile-submenu-item">Announcements (General)</a>
-                <a href="#" class="mobile-submenu-item">Recruitments</a>
-                <a href="#" class="mobile-submenu-item">Tenders</a>
+                <a href="events.php" class="mobile-submenu-item">Events</a>
+                <a href="past-events.php" class="mobile-submenu-item">Past Events</a>
+                <a href="announcements-general.php" class="mobile-submenu-item">Announcements (General)</a>
+                <a href="recruitments.php" class="mobile-submenu-item">Recruitments</a>
+                <a href="tenders.php" class="mobile-submenu-item">Tenders</a>
             </div>
         </div>
         <div class="mobile-nav-item">

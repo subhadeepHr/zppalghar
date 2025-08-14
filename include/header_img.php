@@ -39,11 +39,13 @@ $menu = [
         ['title' => 'RTI Contacts', 'url' => 'rti-contacts-pios-apios-aas.php']
     ]],
     ['title' => 'Notices', 'url' => 'notices.php', 'children' => [
-        ['title' => 'Events', 'url' => '#'],
-        ['title' => 'Past Events', 'url' => '#'],
-        ['title' => 'Announcements (General)', 'url' => '#'],
-        ['title' => 'Recruitments', 'url' => '#'],
-        ['title' => 'Tenders', 'url' => '#']
+        ['title' => 'Events', 'url' => 'events.php'],
+        ['title' => 'Past Events', 'url' => 'past-events.php'],
+        ['title' => 'Announcements (General)', 'url' => 'announcements-general.php'],
+        ['title' => 'Recruitments', 'url' => 'recruitments.php'],
+        ['title' => 'Tenders', 'url' => 'tenders.php'],
+        ['title' => 'Constitution Day celebrated at Zilla Parishad Palghar', 'url' => 'constitution-day-celebrated-at-zilla-parishad-palghar.php'],
+        ['title' => 'Successful program of health check-up of beneficiaries migrated to brick kilns in Palghar district', 'url' => 'successful-program-of-health-check-up-of-beneficiaries-migrated-to-brick-kilns-in-palghar-district.php']
     ]],
     ['title' => 'Feedback', 'url' => 'feedback.php'],
     ['title' => 'Website Policies', 'url' => 'policies.php'],
