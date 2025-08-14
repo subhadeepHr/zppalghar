@@ -13,7 +13,7 @@
     <?php include_once "include/header.php"; ?>
     <img src="https://cdnbbsr.s3waas.gov.in/s34dd9cec1c21bc54eecb53786a2c5fa09/uploads/2024/12/202412091606075104.jpg" alt="Tailwind CSS Logo" class="mx-auto min-h-[115px] object-cover">
     <div class="bg-[#F6F3EE] min-h-screen">
-        <div class="container m-auto px-[15px]">
+        <div class="max-w-7xl m-auto px-[15px]">
             <div
                 class="pt-[25px] lg:pb-[20px] pb-[15px] flex flex-col lg:flex-row justify-between gap-y-[15px] text-sm lg:text-base">
                 <div>

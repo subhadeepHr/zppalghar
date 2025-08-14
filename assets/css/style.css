@@ -244,7 +244,9 @@ ul li .socialIcons {
   color: #1f2937;
   padding-left: 24px;
 } */
-
+.footerScrollbar li {
+  border-right: 3px solid #eee;
+}
 .hero-section {
   background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
   position: relative;

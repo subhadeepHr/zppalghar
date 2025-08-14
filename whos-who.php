@@ -18,7 +18,7 @@
         <div class="grid lg:grid-cols-4 grid-cols-1 mb-5">
 
         </div>
-        <div class="container m-auto px-[15px] pb-[20px]">
+        <div class="max-w-7xl m-auto px-[15px] pb-[20px]">
             <div
                 class="pt-[25px] lg:pb-[20px] pb-[15px] flex flex-col lg:flex-row justify-between gap-y-[15px] text-sm lg:text-base">
                 <div>

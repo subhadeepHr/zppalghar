@@ -379,7 +379,42 @@ jQuery(window).scroll(function () {
 //   sidebar.classList.add("translate-x-full");
 //   overlay.classList.add("hidden");
 // });
+$(".footerScrollbar").flexslider({
+  animation: "slide",
+  animationLoop: false,
+  itemWidth: 210,
+  itemMargin: 5,
+});
+// jQuery(document).ready(function ($) {
+//   $(".footerScrollbar").each(function () {
+//     if ($(this).find(".flex-viewport").length == 0) {
+//       $(this).flexslider($(this).parent().data("flexcontrol"));
+//     }
+//   });
+//   $(".footerScrollbar.flexslider > .flex-direction-nav a.flex-prev").attr({
+//     "aria-label": "Previous Important Sites slide",
+//     role: "button",
+//   });
+//   $(".footerScrollbar.flexslider > .flex-direction-nav a.flex-next").attr({
+//     "aria-label": "Next Important Sites slide",
+//     role: "button",
+//   });
+//   $(".footerScrollbar.flexslider > .flex-pauseplay a").attr({
+//     "aria-label": "Pause Important Sites slide",
+//     role: "button",
+//   });
 
+//   $(".footerScrollbar.flexslider > .flex-pauseplay a").on("click", function () {
+//     const $playPauseBtn = $(this);
+//     setTimeout(function () {
+//       if ($playPauseBtn.hasClass("flex-pause")) {
+//         $playPauseBtn.attr("aria-label", "Pause Important Sites slide");
+//       } else if ($playPauseBtn.hasClass("flex-play")) {
+//         $playPauseBtn.attr("aria-label", "Play Important Sites slide");
+//       }
+//     }, 0);
+//   });
+// });
 /**** Snehashis */
 // Print functionality
 function printWholePage() {

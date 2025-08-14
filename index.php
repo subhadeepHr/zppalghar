@@ -457,10 +457,51 @@
             </div>
         </div>
     </section>
-
+    <div class="border-2 border-[#eee]">
+        <div class="footerScrollbar carousel max-w-7xl mx-auto">
+            <ul class="slides" aria-label="Important Sites">
+                <li>
+                    <a aria-label="Open Government Data (OGD) Platform India, External site that opens in a new window" href="https://data.gov.in/" target="_blank">
+                        <img decoding="async" src="assets/images/f-img-1.png" alt="Open Government Data (OGD) Platform India" /> </a>
+                </li>
+                <li>
+                    <a aria-label="Make in India Banner, External site that opens in a new window" href="http://www.makeinindia.com/" target="_blank">
+                        <img decoding="async" src="assets/images/f-img-2.png" alt="Make in India Banner" /> </a>
+                </li>
+                <li>
+                    <a aria-label="Incredible India Site, External site that opens in a new window" href="https://incredibleindia.org/" target="_blank">
+                        <img decoding="async" src="assets/images/f-img-3.png" alt="Incredible India Site" /> </a>
+                </li>
+                <li>
+                    <a aria-label="National Portal of India, External site that opens in a new window" href="https://www.india.gov.in/" target="_blank">
+                        <img decoding="async" src="assets/images/f-img-4.png" alt="National Portal of India" /> </a>
+                </li>
+                <li>
+                    <a aria-label="Digital India, External site that opens in a new window" href="http://www.digitalindia.gov.in/" target="_blank">
+                        <img decoding="async" src="assets/images/f-img-5.png" alt="Digital India" /> </a>
+                </li>
+                <li>
+                    <a aria-label="Prime Minister of India, External site that opens in a new window" href="https://www.pmindia.gov.in/" target="_blank">
+                        <img decoding="async" src="assets/images/f-img-6.png" alt="Prime Minister of India" /> </a>
+                </li>
+                <li>
+                    <a aria-label="MyGov, External site that opens in a new window" href="https://www.mygov.in/" target="_blank">
+                        <img decoding="async" src="assets/images/f-img-7.png" alt="MyGov" /> </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <?php include_once "include/footer.php"; ?>
     <?php include_once "include/footer_script.php"; ?>
-
+    <script>
+        $(".footerScrollbar").flexslider({
+            animation: "slide",
+            animationLoop: true,
+            control
+            itemWidth: 210,
+            itemMargin: 1,
+        });
+    </script>
 
 </body>
 
