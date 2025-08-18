@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
-    <title>Citizen’s Corner</title>
+    <title>Publications</title>
     <?php include_once "include/header_script.php"; ?>
 </head>
 
@@ -19,18 +19,32 @@
                 <h1 class="leading-[38px] font-semibold lg:text-[2rem] text-lg"><?= $ct ?></h1>
                 <div class="grid lg:grid-cols-3 grid-cols-1 gap-4 py-[15px]">
                     <a class="border rounded-lg p-[10px] flex gap-x-[10px] items-center border-[#737373]"
-                        href="citizens-services.php" aria-label="Introduction - PDF">
+                        href="magazines-newsletters.php" aria-label="Introduction - PDF">
                         <div class="rounded-full border-[1px] flex items-center justify-center flex-shrink-0 p-1 border-[#848484]">
                             <img src="assets/images/right-arrow.svg" class="h-[40px]">
                         </div>
-                        <div class="list-text">Services</div>
+                        <div class="list-text">Magazines/Newsletters</div>
                     </a>
                     <a class="border rounded-lg p-[10px] flex gap-x-[10px] items-center border-[#737373]"
-                        href="citizens-form.php" aria-label="">
+                        href="training-manuals.php" aria-label="">
                         <div class="rounded-full border-[1px] flex items-center justify-center flex-shrink-0 p-1 border-[#848484]">
                             <img src="assets/images/right-arrow.svg" class="h-[40px]">
                         </div>
-                        <div class="list-text">Forms</div>
+                        <div class="list-text">Training Manuals</div>
+                    </a>
+                    <a class="border rounded-lg p-[10px] flex gap-x-[10px] items-center border-[#737373]"
+                        href="handbook.php" aria-label="">
+                        <div class="rounded-full border-[1px] flex items-center justify-center flex-shrink-0 p-1 border-[#848484]">
+                            <img src="assets/images/right-arrow.svg" class="h-[40px]">
+                        </div>
+                        <div class="list-text">Handbook</div>
+                    </a>
+                    <a class="border rounded-lg p-[10px] flex gap-x-[10px] items-center border-[#737373]"
+                        href="brochures-pamphlets.php" aria-label="">
+                        <div class="rounded-full border-[1px] flex items-center justify-center flex-shrink-0 p-1 border-[#848484]">
+                            <img src="assets/images/right-arrow.svg" class="h-[40px]">
+                        </div>
+                        <div class="list-text">Brochures / Pamphlets</div>
                     </a>
 
                 </div>

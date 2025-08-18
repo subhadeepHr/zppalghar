@@ -468,15 +468,15 @@
             </div>
         </div>
         <div class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" onclick="toggleMobileSubmenu('publicationsSubmenu', this)">
+            <a href="publications.php" class="mobile-nav-link" onclick="toggleMobileSubmenu('publicationsSubmenu', this)">
                 Publications
                 <i class="fa fa-plus text-sm"></i>
             </a>
             <div id="publicationsSubmenu" class="mobile-submenu">
-                <a href="#" class="mobile-submenu-item">Handbook</a>
-                <a href="#" class="mobile-submenu-item">Brochures / Pamphlets</a>
-                <a href="#" class="mobile-submenu-item">Magazines / Newsletters</a>
-                <a href="#" class="mobile-submenu-item">Training Manuals</a>
+                <a href="handbook.php" class="mobile-submenu-item">Handbook</a>
+                <a href="brochures-pamphlets.php" class="mobile-submenu-item">Brochures / Pamphlets</a>
+                <a href="magazines-newsletters.php" class="mobile-submenu-item">Magazines / Newsletters</a>
+                <a href="training-manuals.php" class="mobile-submenu-item">Training Manuals</a>
             </div>
         </div>
         <div class="mobile-nav-item">
@@ -534,16 +534,16 @@
             </li>
 
             <li class="relative group">
-                <a href="#"
+                <a href="publications.php"
                     class="flex items-center gap-4 px-3 py-2 group-hover:bg-black/40 group-hover:text-white hover:bg-black/40 hover:text-white transition-colors duration-300">
                     Publications
                     <i class="fa fa-chevron-right transition-transform duration-300 group-hover:rotate-90"></i>
                 </a>
                 <ul class="max-h-0 overflow-hidden opacity-0 group-hover:max-h-96 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-black/40 shadow-md">
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Handbook</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Brochures / Pamphlets</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Magazines / Newsletters</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Training Manuals</a></li>
+                    <li><a href="handbook.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Handbook</a></li>
+                    <li><a href="brochures-pamphlets.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Brochures / Pamphlets</a></li>
+                    <li><a href="magazines-newsletters.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Magazines / Newsletters</a></li>
+                    <li><a href="training-manuals.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Training Manuals</a></li>
                 </ul>
             </li>
 

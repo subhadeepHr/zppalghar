@@ -60,7 +60,19 @@ $menu = [
         ['title' => 'Press Release', 'url' => 'media-corner-press-release.php'],
         ['title' => 'Photo Gallery', 'url' => 'media-corner-photo-gallery.php'],
         ['title' => 'Video Gallery', 'url' => 'media-corner-video-gallery.php'],
-    ]]
+    ]],
+    // ['title' => 'Publications', 'url' => 'publications.php'],
+    // ['title' => 'Magazines / Newsletters', 'url' => 'magazines-newsletters.php'],
+
+    ['title' => 'Publications', 'url' => 'publications.php', 'children' => [
+        ['title' => 'Magazines / Newsletters', 'url' => 'magazines-newsletters.php'],
+        ['title' => 'Training Manuals', 'url' => 'training-manuals.php'],
+        ['title' => 'Handbook', 'url' => 'handbook.php'],
+        ['title' => 'Brochures / Pamphlets', 'url' => 'brochures-pamphlets.php'],
+    ]],
+
+
+
 ];
 
 // Recursive search for breadcrumb path
