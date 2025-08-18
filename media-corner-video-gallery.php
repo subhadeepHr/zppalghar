@@ -44,7 +44,7 @@
                 <div class="relative bg-white shadow-md min-h-[400px] flex flex-col">
                     <!-- Image Container -->
                     <div class="w-full h-36 aspect-video flex-shrink-0 overflow-hidden">
-                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="https://cdnbbsr.s3waas.gov.in/s34dd9cec1c21bc54eecb53786a2c5fa09/uploads/bfi_thumb/20250101757138700-qzd5z9evxvf3r3cbhxwdqarubi95llzk787fssrb8u.jpeg" alt="news">
+                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="https://img.youtube.com/vi/3uMiLK1uXJE/mqdefault.jpg" alt="news">
                     </div>
                     <!-- Text Content -->
                     <div class="relative p-4 pb-8 flex-1 flex flex-col justify-between gap-y-1">
