@@ -483,10 +483,10 @@
             <a href="important-telephone-numbers.php" class="mobile-nav-link">Important Telephone Numbers</a>
         </div>
         <div class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link">Helpline</a>
+            <a href="helpline.php" class="mobile-nav-link">Helpline</a>
         </div>
         <div class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" onclick="toggleMobileSubmenu('tourismSubmenu', this)">
+            <a href="tourism.php" class="mobile-nav-link" onclick="toggleMobileSubmenu('tourismSubmenu', this)">
                 TOURISM
                 <i class="fa fa-plus text-sm"></i>
             </a>
@@ -552,11 +552,11 @@
             </li>
 
             <li class="relative group">
-                <a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Helpline</a>
+                <a href="helpline.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Helpline</a>
             </li>
 
             <li class="relative group">
-                <a href="#"
+                <a href="tourism.php"
                     class="flex items-center gap-4 px-3 py-2 group-hover:bg-black/40 group-hover:text-white hover:bg-black/40 hover:text-white transition-colors duration-300">
                     TOURISM
                     <i class="fa fa-chevron-right transition-transform duration-300 group-hover:rotate-90"></i>
