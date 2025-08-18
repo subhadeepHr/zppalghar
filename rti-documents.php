@@ -23,10 +23,10 @@
 
 <body class="bg-[#f5f3ee] ">
     <?php include_once "include/header.php"; ?>
-    <div class="max-w-7xl mx-auto ">
+    <div class="max-w-7xl mx-auto py-6">
         <h1 class="text-2xl font-medium mb-4">RTI Documents</h1>
 
-        <div class="overflow-x-auto w-full">
+        <div class="overflow-x-auto w-full py-4">
             <table class="min-w-full text-sm text-left border border-gray-300 shadow-sm">
                 <!-- Black Header -->
                 <thead>
