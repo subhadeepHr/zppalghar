@@ -39,12 +39,24 @@
             </div>
 
             <!-- Grid View:  Past Event Details -->
-            <div id="gridView" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 mb-8">
+            <div id="gridView" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 mb-8">
 
-                <div class="relative bg-white shadow-md min-h-[400px] flex flex-col">
+                <div class="relative bg-white shadow-md min-h-[350px] flex flex-col">
                     <!-- Image Container -->
-                    <div class="w-full h-36 aspect-video flex-shrink-0 overflow-hidden">
-                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="https://cdnbbsr.s3waas.gov.in/s34dd9cec1c21bc54eecb53786a2c5fa09/uploads/bfi_thumb/20250101757138700-qzd5z9evxvf3r3cbhxwdqarubi95llzk787fssrb8u.jpeg" alt="news">
+                    <div class="w-full h-44 aspect-video flex-shrink-0 overflow-hidden relative group">
+                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" 
+                             src="https://cdnbbsr.s3waas.gov.in/s34dd9cec1c21bc54eecb53786a2c5fa09/uploads/bfi_thumb/20250101757138700-qzd5z9evxvf3r3cbhxwdqarubi95llzk787fssrb8u.jpeg" 
+                             alt="news">
+
+                        <!-- Overlay -->
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                        <!-- Play Button -->
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="white">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
                     </div>
                     <!-- Text Content -->
                     <div class="relative p-4 pb-8 flex-1 flex flex-col justify-between gap-y-1">
@@ -53,10 +65,9 @@
                                 <path d="M13 0L25.9904 15H0.00961876L13 0Z" fill="white" />
                             </svg>
                         </div>
-                        <div class="text-left">
+                        <div class="">
                             <div class="space-y-1">
-                                <h3 class="text-sm font-semibold">Pesa Day celebrated through Nandore Gram Panchayat</h3>
-                                <p class="text-sm text-gray-600">Zilla Parishad Palghar Date 24/12/2024 Pesa Day was celebrated through Nandore Gram Panchayat today, December…</p>
+                                <h3 class="text-xl font-base text-center">Cleanliness campaign in Zilla Parishad premises through Shramdan by officers and employees</h3>
                             </div>
                         </div>
                         <div class="border border-gray-300 w-full flex justify-center gap-x-2  px-4 py-2">
@@ -69,18 +80,48 @@
                             </a>
                         </div>
                     </div>
-
-                    <a href="">
-                        <button class="absolute -bottom-5 left-[45%] rounded-full size-9 bg-white  border-2 border-[#FBAC1B] text-[#FBAC1B] flex flex-col items-center justify-center">
-                            <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.5 1.5L10 9.5L1.5 15.5" stroke="#FBAC1B" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                        </button>
-                    </a>
                 </div>
 
+                <div class="relative bg-white shadow-md min-h-[350px] flex flex-col">
+                    <!-- Image Container -->
+                    <div class="w-full h-44 aspect-video flex-shrink-0 overflow-hidden relative group">
+                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" 
+                             src="https://cdnbbsr.s3waas.gov.in/s34dd9cec1c21bc54eecb53786a2c5fa09/uploads/bfi_thumb/20250101757138700-qzd5z9evxvf3r3cbhxwdqarubi95llzk787fssrb8u.jpeg" 
+                             alt="news">
 
+                        <!-- Overlay -->
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
+                        <!-- Play Button -->
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="white">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Text Content -->
+                    <div class="relative p-4 pb-8 flex-1 flex flex-col justify-between gap-y-1">
+                        <div class="absolute -top-[4%] left-[45%]">
+                            <svg width="26" height="15" viewBox="0 0 26 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 0L25.9904 15H0.00961876L13 0Z" fill="white" />
+                            </svg>
+                        </div>
+                        <div class="">
+                            <div class="space-y-1">
+                                <h3 class="text-xl font-base text-center">Cleanliness campaign in Zilla Parishad premises through Shramdan by officers and employees</h3>
+                            </div>
+                        </div>
+                        <div class="border border-gray-300 w-full flex justify-center gap-x-2  px-4 py-2">
+                            <img src="assets/share_icon.svg" alt="share icon" class="size-4" />
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.zppalghar.gov.in/en/documents/&t=Documents">
+                                <img src="assets/facebook_social_icon.svg" alt="facebook icon" class="size-4">
+                            </a>
+                            <a href="https://x.com/share?url=https://www.zppalghar.gov.in/en/documents/&via=TWITTER_HANDLE&text=Documents">
+                                <img src="assets/twitter_social_icon.svg" alt="twitter icon" class="size-4">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- List View:  Past Event Details -->
@@ -89,8 +130,20 @@
                 <!-- Card -->
                 <div class=" bg-white shadow-md flex">
                     <!-- Image Container -->
-                    <div class="w-96 h-48 aspect-video flex-shrink-0 overflow-hidden">
-                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" src="https://cdnbbsr.s3waas.gov.in/s34dd9cec1c21bc54eecb53786a2c5fa09/uploads/bfi_thumb/20250101757138700-qzd5z9evxvf3r3cbhxwdqarubi95llzk787fssrb8u.jpeg" alt="news">
+                    <div class="w-96 h-48 aspect-video flex-shrink-0 overflow-hidden relative group">
+                        <img class="size-full object-cover hover:scale-105 transition-transform duration-300" 
+                             src="https://cdnbbsr.s3waas.gov.in/s34dd9cec1c21bc54eecb53786a2c5fa09/uploads/bfi_thumb/20250101757138700-qzd5z9evxvf3r3cbhxwdqarubi95llzk787fssrb8u.jpeg" 
+                             alt="news">
+
+                        <!-- Overlay -->
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+                        <!-- Play Button -->
+                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="white">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
                     </div>
                     <!-- Text Content -->
                     <div class="relative p-4 flex flex-col justify-between gap-y-4">
@@ -98,7 +151,6 @@
                             <svg width="15" height="26" viewBox="0 0 15 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.00146484 13.001L15.0015 0.010592L15.0015 25.9914L0.00146484 13.001Z" fill="white" />
                             </svg>
-
                         </div>
                         <div class="flex gap-x-4 justify-between items-center">
                             <div class="space-y-3 w-[80%]">
@@ -115,8 +167,6 @@
                                             <img src="assets/twitter_social_icon.svg" alt="twitter icon" class="size-4">
                                         </a>
                                     </div>
-
-
                                 </div>
                             </div>
                             <a href="">
@@ -127,13 +177,8 @@
                                 </button>
                             </a>
                         </div>
-
                     </div>
-
                 </div>
-
-
-
             </div>
 
         </div>
@@ -197,5 +242,4 @@
     </script>
 
 </body>
-
 </html>
