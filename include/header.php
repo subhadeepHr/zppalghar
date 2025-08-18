@@ -456,15 +456,15 @@
             <a href="#" class="mobile-nav-link">Maharashtra Right to Public Service Act</a>
         </div>
         <div class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link" onclick="toggleMobileSubmenu('mediaSubmenu', this)">
+            <a href="media-corner.php" class="mobile-nav-link" onclick="toggleMobileSubmenu('mediaSubmenu', this)">
                 Media Corner
                 <i class="fa fa-plus text-sm"></i>
             </a>
             <div id="mediaSubmenu" class="mobile-submenu">
-                <a href="#" class="mobile-submenu-item">News</a>
-                <a href="#" class="mobile-submenu-item">Press Release</a>
-                <a href="#" class="mobile-submenu-item">Photo Gallery</a>
-                <a href="#" class="mobile-submenu-item">Video Gallery</a>
+                <a href="media-corner-news.php" class="mobile-submenu-item">News</a>
+                <a href="media-corner-press-release.php" class="mobile-submenu-item">Press Release</a>
+                <a href="media-corner-photo-gallery.php" class="mobile-submenu-item">Photo Gallery</a>
+                <a href="media-corner-video-gallery.php" class="mobile-submenu-item">Video Gallery</a>
             </div>
         </div>
         <div class="mobile-nav-item">
@@ -473,9 +473,10 @@
                 <i class="fa fa-plus text-sm"></i>
             </a>
             <div id="publicationsSubmenu" class="mobile-submenu">
-                <a href="#" class="mobile-submenu-item">Annual Publications</a>
-                <a href="#" class="mobile-submenu-item">Monthly Reports</a>
-                <a href="#" class="mobile-submenu-item">Newsletters</a>
+                <a href="#" class="mobile-submenu-item">Handbook</a>
+                <a href="#" class="mobile-submenu-item">Brochures / Pamphlets</a>
+                <a href="#" class="mobile-submenu-item">Magazines / Newsletters</a>
+                <a href="#" class="mobile-submenu-item">Training Manuals</a>
             </div>
         </div>
         <div class="mobile-nav-item">
@@ -490,9 +491,8 @@
                 <i class="fa fa-plus text-sm"></i>
             </a>
             <div id="tourismSubmenu" class="mobile-submenu">
-                <a href="#" class="mobile-submenu-item">Tourist Places</a>
-                <a href="#" class="mobile-submenu-item">Hotels & Accommodation</a>
-                <a href="#" class="mobile-submenu-item">Travel Guide</a>
+                <a href="#" class="mobile-submenu-item">& Heritage</a>
+
             </div>
         </div>
     </div>
@@ -520,16 +520,16 @@
 
             <!-- Menu with submenu -->
             <li class="relative group">
-                <a href="#"
+                <a href="media-corner.php"
                     class="flex items-center gap-4 px-3 py-2 text-black group-hover:bg-black/40 group-hover:text-white hover:bg-black/40 hover:text-white transition-colors duration-300">
                     Media Corner
                     <i class="fa fa-chevron-right transition-transform duration-300 group-hover:rotate-90"></i>
                 </a>
                 <ul class="max-h-0 overflow-hidden opacity-0 group-hover:max-h-96 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-black/40 shadow-md">
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">News</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Press Release</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Photo Gallery</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Video Gallery</a></li>
+                    <li><a href="media-corner-news.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">News</a></li>
+                    <li><a href="media-corner-press-release.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Press Release</a></li>
+                    <li><a href="media-corner-photo-gallery.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Photo Gallery</a></li>
+                    <li><a href="media-corner-video-gallery.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Video Gallery</a></li>
                 </ul>
             </li>
 
@@ -562,12 +562,8 @@
                     <i class="fa fa-chevron-right transition-transform duration-300 group-hover:rotate-90"></i>
                 </a>
                 <ul class="max-h-0 overflow-hidden opacity-0 group-hover:max-h-96 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-black/40 shadow-md">
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">How to reach?</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Historical and Heritage</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Beach</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Religious places</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Agriculture / Production</a></li>
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Bharatmap</a></li>
+                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">& Heritage</a></li>
+
                 </ul>
             </li>
 

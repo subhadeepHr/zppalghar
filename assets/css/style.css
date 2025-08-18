@@ -1121,9 +1121,30 @@ Specificity: (0,4,2) {
 .service .service-container .service-content .service-box a span {
   display: block;
 }
+.photo-count {
+  padding: 10px 20px;
+  background: rgba(234, 56, 118, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 1em;
+  color: #ffffff !important;
+}
+.thumbs_view * {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
 @media (max-width: 1199px) {
   .service .service-container .service-content .service-box {
     width: 14%;
+  }
+  .photo-count {
+    padding: 6px 12px;
+    font-size: 0.9em;
   }
 }
 @media (max-width: 767px) {

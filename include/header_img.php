@@ -55,6 +55,12 @@ $menu = [
     ['title' => 'Help', 'url' => 'helpPage.php'],
     ['title' => 'Web Information Manager', 'url' => 'informationManager.php'],
     ['title' => 'Maharashtra Right to Public Service Act', 'url' => 'maharashtra-right-to-public-service-act.php'],
+    ['title' => 'Media Corner', 'url' => 'media-corner.php', 'children' => [
+        ['title' => 'News', 'url' => 'media-corner-news.php'],
+        ['title' => 'Press Release', 'url' => 'media-corner-press-release.php'],
+        ['title' => 'Photo Gallery', 'url' => 'media-corner-photo-gallery.php'],
+        ['title' => 'Video Gallery', 'url' => 'media-corner-video-gallery.php'],
+    ]]
 ];
 
 // Recursive search for breadcrumb path
