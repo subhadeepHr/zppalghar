@@ -23,7 +23,7 @@
                         <div class="flex gap-4">
                             <!-- Thumbnail -->
                             <div class="w-40 h-52 flex-shrink-0">
-                                <img src="./assets/images/20241225991475889-qz0ojlpmtzdyuad8b0o9ztc4fdyy4nbuc74exc6wr6.png" alt="E-office Manual" class="w-full h-full object-cover border" />
+                                <img src="./assets/images/20241226471460433-qz2s4j2ub44qqe2i05k0q758yyv9qr7x3j9w6huh5e.png" alt="E-office Manual" class="w-full h-full object-cover border" />
                             </div>
                             <!-- Details -->
                             <div>
