@@ -480,7 +480,7 @@
             </div>
         </div>
         <div class="mobile-nav-item">
-            <a href="#" class="mobile-nav-link">Important Telephone Numbers</a>
+            <a href="important-telephone-numbers.php" class="mobile-nav-link">Important Telephone Numbers</a>
         </div>
         <div class="mobile-nav-item">
             <a href="#" class="mobile-nav-link">Helpline</a>
@@ -548,7 +548,7 @@
             </li>
 
             <li class="relative group">
-                <a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Important Telephone Numbers</a>
+                <a href="important-telephone-numbers.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">Important Telephone Numbers</a>
             </li>
 
             <li class="relative group">
