@@ -70,6 +70,11 @@ $menu = [
         ['title' => 'Handbook', 'url' => 'handbook.php'],
         ['title' => 'Brochures / Pamphlets', 'url' => 'brochures-pamphlets.php'],
     ]],
+    ['title' => 'Important Telephone Numbers', 'url' => 'important-telephone-numbers.php'],
+    ['title' => 'Helpline', 'url' => 'helpline.php'],
+    ['title' => 'Tourism', 'url' => 'tourism.php'],
+
+
 
 
 
