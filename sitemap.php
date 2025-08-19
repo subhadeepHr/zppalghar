@@ -73,7 +73,7 @@
                 </ul>
 
                 <!-- Notices -->
-                <h3 class="font-semibold mb-1"> <a href="notices.php">Notices</a></h3>
+                <h3 class="font-semibold mb-1"> <a href="notices.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Notices</a></h3>
                 <ul class="list-decimal pl-8 mb-3">
                     <li><a href="events.php">Events</a></li>
                     <li><a href="past-events.php">Past Events</a></li>
