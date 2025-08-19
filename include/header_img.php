@@ -10,8 +10,14 @@ $menu = [
         ['title' => 'Administrative Setup', 'url' => 'administrative-setup.php'],
         ['title' => 'Who’s Who', 'url' => 'whos-who.php']
     ]],
-    ['title' => 'Directory', 'url' => 'directory.php'],
-    ['title' => 'Departments', 'url' => 'departments.php'],
+    ['title' => 'Directory', 'url' => 'directory.php', 'children' => [
+        ['title' => 'General Administration Department', 'url' => 'directory_blank.php'],
+        ['title' => 'Gram Panchayat Department', 'url' => 'directory_zp-palghar-contact-of-hod.php'],
+        ['title' => 'District Rural Development Agency (DRDA)', 'url' => 'directory_contact-details-of-panchayat-samiti.php'],
+    ]],
+    ['title' => 'Departments', 'url' => 'departments.php', 'children' => [
+        ['title' => 'Departments', 'url' => 'department_dept-inner-page.php']
+    ]],
     ['title' => 'Citizen’s Corner', 'url' => 'citizens-corner.php', 'children' => [
         ['title' => 'Services', 'url' => 'citizens-services.php'],
         ['title' => 'Common Service Centers (CSC)', 'url' => 'common-service-centers-csc.php'],
@@ -73,6 +79,9 @@ $menu = [
     ['title' => 'Important Telephone Numbers', 'url' => 'important-telephone-numbers.php'],
     ['title' => 'Helpline', 'url' => 'helpline.php'],
     ['title' => 'Tourism', 'url' => 'tourism.php'],
+    ['title' => 'Sitemap', 'url' => 'sitemap.php'],
+    ['title' => 'Culture & Heritage', 'url' => 'culture-heritage.php'],
+    ['title' => 'Web Information Manager', 'url' => 'web-information-manager.php'],
 
 
 

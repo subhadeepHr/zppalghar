@@ -528,7 +528,7 @@
             <a href="" class="topbar-item">
                 <img src="assets/images/social.svg" alt="Social Media Icons" class="w-[20px] h-[20px]">
             </a>
-            <a href="/sitemap.php" class="topbar-item">
+            <a href="sitemap.php" class="topbar-item">
                 <img src="assets/images/sitemap.svg" alt="Sitemap" class="w-[20px] h-[20px]">
             </a>
             <a href="#" class="topbar-item accessibility-trigger" id="accessibilityTrigger">
@@ -895,7 +895,7 @@
                 <i class="fa fa-plus text-sm"></i>
             </a>
             <div id="tourismSubmenu" class="mobile-submenu">
-                <a href="#" class="mobile-submenu-item">& Heritage</a>
+                <a href="culture-heritage.php" class="mobile-submenu-item">& Heritage</a>
 
             </div>
         </div>
@@ -966,7 +966,7 @@
                     <i class="fa fa-chevron-right transition-transform duration-300 group-hover:rotate-90"></i>
                 </a>
                 <ul class="max-h-0 overflow-hidden opacity-0 group-hover:max-h-96 group-hover:opacity-100 transition-all duration-300 ease-in-out bg-black/40 shadow-md">
-                    <li><a href="#" class="block px-3 py-2 hover:bg-black/40 hover:text-white">& Heritage</a></li>
+                    <li><a href="culture-heritage.php" class="block px-3 py-2 hover:bg-black/40 hover:text-white">& Heritage</a></li>
 
                 </ul>
             </li>

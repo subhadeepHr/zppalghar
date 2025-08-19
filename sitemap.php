@@ -22,122 +22,123 @@
 
             <div>
 
-                <h2 class="text-2xl font-semibold">Primary Menu</h2>
+                <h2 class="text-2xl font-semibold mb-3">Primary Menu</h2>
                 <!-- Home -->
-                <h3 class="font-semibold">Home</h3>
+                <h3 class="font-semibold mb-3"><a href="index.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Home</a></h3>
 
                 <!-- About Us -->
-                <h3 class="font-semibold">About Us</h3>
-                <ul class="list-decimal pl-5">
-                    <li>Introduction</li>
-                    <li>Vision & Mission</li>
-                    <li>Objectives & Functions</li>
-                    <li>Administrative Setup</li>
-                    <li>Who’s Who</li>
+                <h3 class="font-semibold mb-1"><a href="about.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> About Us</a></h3>
+                <ul class="list-decimal px-8 mb-3">
+                    <li><a href="introduction.php">Introduction</a></li>
+                    <li><a href="vison-mission.php">Vision & Mission</a></li>
+                    <li><a href="objectives-functions.php">Objectives & Functions</a></li>
+                    <li><a href="administrative-setup.php">Administrative Setup</a></li>
+                    <li><a href="whos-who.php">Who’s Who</a></li>
                 </ul>
 
                 <!-- Directory -->
-                <h3 class="font-semibold">Directory</h3>
+                <h3 class="font-semibold mb-3"><a href="directory.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Directory</a></h3>
 
                 <!-- Departments -->
-                <h3 class="font-semibold">Departments</h3>
+                <h3 class="font-semibold mb-3"><a href="departments.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Departments</a></h3>
 
                 <!-- Citizen's Corner -->
-                <h3 class="font-semibold">Citizen's Corner</h3>
-                <ul class="list-decimal pl-5">
-                    <li>Services</li>
-                    <li>Forms</li>
+                <h3 class="font-semibold mb-1"><a href="citizens-corner.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Citizen's Corner</a></h3>
+                <ul class="list-decimal pl-8 mb-3">
+                    <li><a href="citizens-services.php">Services</a></li>
+                    <li><a href="citizens-form.php">Forms</a></li>
                 </ul>
 
                 <!-- Schemes/Programmes -->
-                <h3 class="font-semibold">Schemes/Programmes</h3>
+                <h3 class="font-semibold mb-3"><a href="schemes-programmes.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Schemes/Programmes</a></h3>
 
                 <!-- Documents -->
-                <h3 class="font-semibold">Documents</h3>
-                <ul class="list-decimal pl-5">
-                    <li>Annual Reports</li>
-                    <li>Budget Information</li>
-                    <li>Citizen Charter</li>
-                    <li>RTI Documents / Manuals</li>
-                    <li>Government Orders</li>
-                    <li>Circulars / Notifications</li>
-                    <li>Acts & Rules</li>
+                <h3 class="font-semibold mb-1"><a href="documents.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Documents</a></h3>
+                <ul class="list-decimal pl-8 mb-3">
+                    <li><a href="annual-reports.php">Annual Reports</a></li>
+                    <li><a href="budget-information.php">Budget Information</a></li>
+                    <li><a href="citizen-charter.php">Citizen Charter</a></li>
+                    <li><a href="rti-documents-manuals.php">RTI Documents / Manuals</a></li>
+                    <li><a href="government-orders.php">Government Orders</a></li>
+                    <li><a href="circulars-notifications.php">Circulars / Notifications</a></li>
+                    <li><a href="act-rules.php">Acts & Rules</a></li>
                 </ul>
 
                 <!-- RTI -->
-                <h3 class="font-semibold">RTI</h3>
-                <ul class="list-decimal pl-5">
-                    <li>Right to Information Sections 1 to 17 Information</li>
-                    <li>RTI Documents</li>
-                    <li>RTI Contacts</li>
+                <h3 class="font-semibold mb-1"><a href="rtis.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> RTI</a></h3>
+                <ul class="list-decimal pl-8 mb-3">
+                    <li><a href="right-to-information-sections-1-to-17-information.php">Right to Information Sections 1 to 17 Information</a></li>
+                    <li><a href="rti-documents.php">RTI Documents</a></li>
+                    <li><a href="rti-contacts-pios-apios-aas.php">RTI Contacts</a></li>
                 </ul>
 
                 <!-- Notices -->
-                <h3 class="font-semibold">Notices</h3>
-                <ul class="list-decimal pl-5">
-                    <li>Events</li>
-                    <li>Past Events</li>
-                    <li>Announcements (General)</li>
-                    <li>Recruitments</li>
-                    <li>Tenders</li>
+                <h3 class="font-semibold mb-1"> <a href="notices.php">Notices</a></h3>
+                <ul class="list-decimal pl-8 mb-3">
+                    <li><a href="events.php">Events</a></li>
+                    <li><a href="past-events.php">Past Events</a></li>
+                    <li><a href="announcements-general.php">Announcements (General)</a></li>
+                    <li><a href="recruitments.php">Recruitments</a></li>
+                    <li><a href="tenders.php">Tenders</a></li>
                 </ul>
 
                 <!-- Maharashtra Right to Public Service Act -->
-                <h3 class="font-semibold">Maharashtra Right to Public Service Act</h3>
+                <h3 class="font-semibold mb-3"><a href="maharashtra-right-to-public-service-act.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Maharashtra Right to Public Service Act</a></h3>
 
                 <!-- Media Corner -->
-                <h3 class="font-semibold">Media Corner</h3>
-                <ul class="list-decimal pl-5">
-                    <li>News</li>
-                    <li>Press Release</li>
-                    <li>Photo Gallery</li>
-                    <li>Video Gallery</li>
+                <h3 class="font-semibold mb-1"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i><a href="media-corner.php">Media Corner</a></h3>
+                <ul class="list-decimal pl-8 mb-3">
+                    <li><a href="media-corner-news.php">News</a></li>
+                    <li><a href="media-corner-press-release.php">Press Release</a></li>
+                    <li><a href="media-corner-photo-gallery.php">Photo Gallery</a></li>
+                    <li><a href="media-corner-video-gallery.php">Video Gallery</a></li>
                 </ul>
 
                 <!-- Publications -->
-                <h3 class="font-semibold">Publications</h3>
-                <ul class="list-decimal pl-5">
-                    <li>Handbook</li>
-                    <li>Brochures / Pamphlets</li>
-                    <li>Magazines / Newsletters</li>
-                    <li>Training Manuals</li>
+                <h3 class="font-semibold mb-1"><a href="publications.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Publications</a></h3>
+                <ul class="list-decimal pl-8 mb-3">
+                    <li><a href="handbook.php">Handbook</a></li>
+                    <li><a href="brochures-pamphlets.php">Brochures / Pamphlets</a></li>
+                    <li><a href="magazines-newsletters.php">Magazines / Newsletters</a></li>
+                    <li><a href="training-manuals.php">Training Manuals</a></li>
                 </ul>
 
                 <!-- Important Telephone Numbers -->
-                <h3 class="font-semibold">Important Telephone Numbers</h3>
+                <h3 class="font-semibold mb-3"><a href="important-telephone-numbers.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Important Telephone Numbers</a></h3>
 
                 <!-- Helpline -->
-                <h3 class="font-semibold">Helpline</h3>
+                <h3 class="font-semibold mb-3"><a href="helpline.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Helpline</a></h3>
 
                 <!-- TOURISM -->
-                <h3 class="font-semibold">TOURISM</h3>
-                <ul class="list-decimal pl-5">
-                    <li>& Heritage</li>
+                <h3 class="font-semibold mb-1"><a href="tourism.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> TOURISM</a></h3>
+                <ul class="list-decimal pl-8 mb-3">
+
+                    <li><a href="culture-heritage.php">Heritage</a></li>
                 </ul>
 
             </div>
 
             <!-- Footer Menu Section -->
             <div class="mt-8">
-                <h2 class="text-2xl font-semibold">Footer Menu</h2>
+                <h2 class="text-2xl font-semibold mb-3">Footer Menu</h2>
 
                 <!-- Feedback -->
-                <h3 class="font-semibold">Feedback</h3>
+                <h3 class="font-semibold mb-3"><a href="feedback.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Feedback</a></h3>
 
                 <!-- Website Policies -->
-                <h3 class="font-semibold">Website Policies</h3>
+                <h3 class="font-semibold mb-3"><a href="policies.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Website Policies</a></h3>
 
                 <!-- Website Visitor Summary -->
-                <h3 class="font-semibold">Website Visitor Summary</h3>
+                <h3 class="font-semibold mb-3"> <a href="visitorSummery.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Website Visitor Summary</a></h3>
 
                 <!-- Contact Us -->
-                <h3 class="font-semibold">Contact Us</h3>
+                <h3 class="font-semibold mb-3"><a href="contactUs.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Contact Us</a></h3>
 
                 <!-- Help -->
-                <h3 class="font-semibold">Help</h3>
+                <h3 class="font-semibold mb-3"><a href="helpPage.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Help</a></h3>
 
                 <!-- Web Information Manager -->
-                <h3 class="font-semibold">Web Information Manager</h3>
+                <h3 class="font-semibold mb-3"><a href="web-information-manager.php"><i class="fa fa-chevron-right text-sm" aria-hidden="true"></i> Web Information Manager</a></h3>
 
             </div>
 
