@@ -88,7 +88,7 @@
     }
 
     .mobile-menu.open {
-        max-height: 100vh;
+        max-height: max-content;
     }
 
     .mobile-nav-item {
